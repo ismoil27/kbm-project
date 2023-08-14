@@ -21,30 +21,30 @@ export function Navbar({ brandName, action }) {
     );
   }, []);
 
-  const items = [
-    {
-      label: (
-        <Link
-          to={"/clients"}
-          className="flex items-center gap-1 p-1 font-normal"
-        >
-          Clients
-        </Link>
-      ),
-      key: "0",
-    },
-    {
-      label: (
-        <Link
-          to={"/candidates"}
-          className="flex items-center gap-1 p-1 font-normal"
-        >
-          Candidates
-        </Link>
-      ),
-      key: "1",
-    },
-  ];
+  // const items = [
+  //   {
+  //     label: (
+  //       <Link
+  //         to={"/clients"}
+  //         className="flex items-center gap-1 p-1 font-normal"
+  //       >
+  //         Clients
+  //       </Link>
+  //     ),
+  //     key: "0",
+  //   },
+  //   {
+  //     label: (
+  //       <Link
+  //         to={"/candidates"}
+  //         className="flex items-center gap-1 p-1 font-normal"
+  //       >
+  //         Candidates
+  //       </Link>
+  //     ),
+  //     key: "1",
+  //   },
+  // ];
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -56,11 +56,11 @@ export function Navbar({ brandName, action }) {
         className="capitalize"
       >
         <Link
-          to={"/about-company"}
+          to={"/"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
           {" "}
-          About Company
+          Home
         </Link>
       </Typography>
       <Typography
@@ -74,25 +74,30 @@ export function Navbar({ brandName, action }) {
           to={"/services"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
-          Services
+          About Us
         </Link>
       </Typography>
-      <Dropdown
+      {/* <Dropdown
         menu={{
           items,
         }}
         trigger={["click", "hover"]}
+      > */}
+      <Typography
+        key={name}
+        as="li"
+        variant="small"
+        color="inherit"
+        className="cursor-pointer text-xl font-normal capitalize"
       >
-        <Typography
-          key={name}
-          as="li"
-          variant="small"
-          color="inherit"
-          className="cursor-pointer text-xl font-normal capitalize"
+        <Link
+          to={"/clients"}
+          className="flex items-center gap-1 p-1 text-xl font-normal"
         >
-          Clients and Candidates
-        </Typography>
-      </Dropdown>
+          Services
+        </Link>
+      </Typography>
+      {/* </Dropdown> */}
       <Typography
         key={name}
         as="li"
@@ -104,7 +109,7 @@ export function Navbar({ brandName, action }) {
           to={"/join-us"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
-          Join Us
+          Projects
         </Link>
       </Typography>
       <Typography
@@ -118,7 +123,7 @@ export function Navbar({ brandName, action }) {
           to={"/contact"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
-          Contact
+          Contact Us
         </Link>
       </Typography>
     </ul>
