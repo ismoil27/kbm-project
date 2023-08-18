@@ -15,25 +15,26 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
-        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/home_page.avif')] bg-cover bg-center" />
-        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/roof_home.jpeg')] bg-cover bg-center" />
+
+        <div className="absolute top-0 h-full w-full  bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
-          <div className="flex flex-wrap items-center">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-              <Typography
-                variant="h3"
-                color="white"
-                className="mb-6 text-4xl font-black"
-              >
-                HELPING PEOPLE AND BUSINESSES TO SUCCEED
-              </Typography>
-            </div>
-          </div>
+          <p className="-mt-11 text-xl text-white">
+            Your Best Local Roofing Service
+          </p>
+          <h1 className="mt-4 w-3/5 text-7xl text-white">
+            Leading Roofing Service in Daejeon Areas
+          </h1>
+          <p className="mt-10 w-3/5 text-lg text-white">
+            Vestibulum, diam vulputate amet cras in diam quis turpis curabitur
+            tellus aliquet tellus iaculis tempus, sollicitudin massa duis
+            eleifend egestas turpis sit etiam commodo viverra lacinia.
+          </p>
         </div>
       </div>
       <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <div className=" grid grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-3">
+          {/* <div className=" grid grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map(({ color, title, icon, description }) => (
               <>
                 <FeatureCard
@@ -47,7 +48,7 @@ export function Home() {
                 />
               </>
             ))}
-          </div>
+          </div> */}
           <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
