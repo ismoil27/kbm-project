@@ -10,6 +10,7 @@ import icon1 from "../../public/img/icon1.png";
 import icon2 from "../../public/img/icon2.png";
 import icon3 from "../../public/img/icon3.png";
 import icon4 from "../../public/img/icon4.png";
+import { PhoneFilled, PhoneTwoTone } from "@ant-design/icons";
 
 export function Home() {
   return (
@@ -30,6 +31,9 @@ export function Home() {
             tellus aliquet tellus iaculis tempus, sollicitudin massa duis
             eleifend egestas turpis sit etiam commodo viverra lacinia.
           </p>
+          <button className=" mt-4 rounded-none border-2 p-4 px-8  text-white hover:bg-[#c95746]">
+            View our Services
+          </button>
         </div>
       </div>
       <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
@@ -50,42 +54,53 @@ export function Home() {
             ))}
           </div> */}
           <div className="mt-32 flex flex-wrap items-center">
-            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
+            <div className="mx-auto mt-14 w-full px-4 md:w-5/12">
+              {/* <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
                 <UsersIcon className="h-6 w-6 text-blue-gray-900" />
-              </div>
-              <Typography
-                variant="h3"
-                className="mb-3 text-3xl  font-bold"
+              </div> */}
+              {/* <Typography
+                variant="h1"
+                className="width-[200px]  mb-3  font-sans text-5xl text-5xl font-bold"
                 color="blue-gray"
-              >
-                Working with us is a pleasure
-              </Typography>
+              > */}
+              <h1 className="  mb-3  font-sans text-[45px]  font-bold">
+                Your Hometown Roofing Services Provider
+              </h1>
+              {/* </Typography> */}
               <Typography className="mb-8  text-xl font-normal text-blue-gray-500">
-                Merging your vision and our expertise, we help you achieve
-                powerful results!
-                <br />
-                <br />
-                JS Scouts Forge has competitive advantage in global recruitment
-                and HR solution services. If your entity is planning to enter
-                South Korea market or entering overseas markets, you can
-                consider us to find the best and right local talents. Our
-                company’s people-focused, performance-driven culture has helped
-                many individuals find rewarding work at leading companies that
-                know an exceptional workforce demands both capability and
-                character.
+                Condimentum ultrices vitae dictumst augue id porta sed accumsan
+                ut amet varius nibh neque faucibus iaculis interdum erat eget.
+                Rutrum ut volutpat scelerisque auctor ultrices lectus ultrices
+                ullamcorper massa diam etiam amet a, nulla pulvinar sapien,
+                ornare lectus nullam a faucibus diam et lorem diam nullam
+                commodo, vestibulum, pulvinar nisl suspendisse diam venenatis
+                enim nunc integer orci quam risus sit neque, fusce massa
+                vulputate pretium.
               </Typography>
+              <PhoneTwoTone
+                twoToneColor={"red"}
+                style={{
+                  padding: "10px",
+                  fontSize: "40px",
+                  background: "rgb(226 232 240)",
+                  borderRadius: "50%",
+                }}
+              />
+
+              <span className="mx-6 ">24/7 Emergency Roofing Service.</span>
+              <br />
+              <span className="ms-20 font-bold text-[#c95746]">
+                +1 123 111 2345
+              </span>
             </div>
-            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-5/12 lg:mt-0">
+            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-7/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
                 <CardBody>
                   <video
                     autoPlay={true}
                     loop
                     muted
-                    src={
-                      "https://firebasestorage.googleapis.com/v0/b/aema-image-upload.appspot.com/o/js%20scouts%20forge%20(2).mp4?alt=media&token=fde960d9-6b8f-4ccc-ac05-35546a7a3aa6"
-                    }
+                    src={"/videos/roofing.mp4"}
                   />
                 </CardBody>
               </Card>

@@ -194,9 +194,9 @@ Navbar.defaultProps = {
   className: "text-xl",
   action: (
     <a href="/contact" target="">
-      <Button variant="gradient" size="sm" fullWidth>
+      {/* <Button variant="gradient" size="sm" fullWidth>
         Send CV
-      </Button>
+      </Button> */}
     </a>
   ),
 };
