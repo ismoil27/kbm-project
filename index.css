@@ -1,3 +1,63 @@
 /* body {
   user-select: none;
 } */
+
+.picture_img1 {
+  position: relative;
+  background-image: url("/public/roofPics/roof1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture_img2 {
+  position: relative;
+  background-image: url("/public/roofPics/roof2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture_img3 {
+  position: relative;
+  background-image: url("/public/roofPics/roof3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture_img4 {
+  position: relative;
+  background-image: url("/public/roofPics/roof4.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay_background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #424346;
+  opacity: 0.65;
+  top: 0;
+  left: 0;
+}
+
+.overlay_background:hover {
+  transition: 1s;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.box1 {
+  width: 350px;
+  height: 250px;
+  border: 1px solid rgb(237, 230, 230);
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.box1 .trophy_icon {
+  /* background-color: red; */
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 50%;
+}

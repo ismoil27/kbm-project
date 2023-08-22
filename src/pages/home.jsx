@@ -10,7 +10,7 @@ import icon1 from "../../public/img/icon1.png";
 import icon2 from "../../public/img/icon2.png";
 import icon3 from "../../public/img/icon3.png";
 import icon4 from "../../public/img/icon4.png";
-import { PhoneFilled, PhoneTwoTone } from "@ant-design/icons";
+import { PhoneTwoTone, TrophyTwoTone } from "@ant-design/icons";
 
 export function Home() {
   return (
@@ -100,7 +100,7 @@ export function Home() {
                     autoPlay={true}
                     loop
                     muted
-                    src={"/videos/roofing.mp4"}
+                    src={"/videos/roofing2.mp4"}
                   />
                 </CardBody>
               </Card>
@@ -109,53 +109,176 @@ export function Home() {
         </div>
       </section>
 
-      <Typography
+      {/* <Typography
         variant="h2"
         className="mt-10 text-center font-bold"
         color="blue-gray"
       >
         JS Scouts Forge stands for KCHC:
-      </Typography>
+      </Typography> */}
 
-      <div className="mt-14 grid grid-cols-1 gap-12 gap-x-24 px-6 md:grid-cols-2 xl:grid-cols-4">
-        <div className="flex flex-col items-center">
-          <img src={icon1} alt="" />
-          <p className="text-xl font-bold">Knowledge</p>
-          <p className="text-center text-xl">
-            We are insatiably curious, always learning new innovative and unique
-            things.
+      {/* <div className="mt-14 grid grid-cols-1 gap-12 gap-x-24 px-6 md:grid-cols-2 xl:grid-cols-4"> */}
+      <div className="mx-2 flex">
+        <div
+          className="picture_img1 picture_img flex flex-col items-center p-10"
+          style={{ width: "358px", height: "500px" }}
+        >
+          <p className="absolute left-10 z-10 mb-40 text-left text-2xl text-white">
+            01.
           </p>
+          <p className="z-10 mt-52 w-full text-3xl text-white">
+            Commercial <br /> Roofing
+          </p>
+          <p className="z-10 mt-2 w-full text-white">
+            Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+            magna et dolor diam ultricies.
+          </p>
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
+            Learn More
+          </p>
+          <div className="overlay_background"></div>
         </div>
-        <div className="flex flex-col items-center">
-          <img src={icon2} alt="" />
-          <p className="text-xl font-bold">Creativity</p>
-          <p className="text-center text-xl">
-            We apply the same principles that we were founded on to solve
-            recruitment challenges.
+        <div
+          className="picture_img2 picture_img flex flex-col items-center p-10"
+          style={{ width: "358px", height: "500px" }}
+        >
+          <p className="absolute left-10 z-10  mb-40 text-left text-2xl text-white">
+            02.
           </p>
+
+          <p className="z-10 mt-52 w-full text-3xl text-white">
+            Residential <br /> Roofing
+          </p>
+          <p className="z-10 mt-2 w-full text-white">
+            Aliquam orci blandit non risus viverra sed iaculis nunc neque augue
+            tincidunt diam turpis nisl.
+          </p>
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
+            Learn More
+          </p>
+          <div className="overlay_background"></div>
         </div>
-        <div className="flex flex-col items-center">
-          <img src={icon3} alt="" />
-          <p className="text-xl font-bold">Honesty</p>
-          <p className="text-center text-xl">
-            We say what we mean and we do what we say. We hold ourselves to the
-            highest standards.
+        <div
+          className="picture_img3 picture_img flex flex-col items-center p-10"
+          style={{ width: "358px", height: "500px" }}
+        >
+          <p className="absolute left-10 z-10  text-left text-2xl text-white">
+            03.
           </p>
+          <p className="z-10 mt-52 w-full text-3xl text-white">
+            After Storm <br /> Damage
+          </p>
+          <p className="z-10 mt-2 w-full text-white">
+            Amet proin sed ac ut diam varius pharetra tortor eget augue massa
+            pretium turpis praesent.
+          </p>
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
+            Learn More
+          </p>
+          <div className="overlay_background"></div>
         </div>
-        <div className="flex flex-col items-center">
-          <img src={icon4} alt="" />
-          <p className="text-xl font-bold">Collaboration</p>
-          <p className="text-center text-xl">
-            Recruitment only works when all parties come together with the same
-            goal and vision.
+        <div
+          className="picture_img4 picture_img flex flex-col items-center p-10"
+          style={{ width: "358px", height: "500px" }}
+        >
+          <p className="absolute left-10 z-10  text-left text-2xl text-white">
+            04.
           </p>
+          <p className="z-10 mt-52 w-full text-3xl text-white">
+            Financing & <br /> Insurance
+          </p>
+          <p className="z-10 mt-2 w-full text-white">
+            Sed ac, morbi vel viverra scelerisque tellus arcu eget ut duis fames
+            in quam gravida.
+          </p>
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
+            Learn More
+          </p>
+          <div className="overlay_background"></div>
         </div>
       </div>
 
       <section className="mt-20">
-        <p className="mb-6 mt-6 text-center text-4xl font-bold">
-          SPECIALIZED FIELDS
+        <img
+          src="/roofPics/logo_red.png"
+          alt=""
+          style={{
+            height: "40px",
+            width: "40px",
+            fontWeight: 600,
+            margin: "auto",
+          }}
+        />
+        <h1 className="mt-2 text-center text-4xl font-bold">Why Choose Us</h1>
+        <p className="m-auto mt-4 w-6/12 text-center text-gray-400">
+          Ipsum ornare eu nibh sagittis nunc quisque viverra fringilla egestas
+          dictumst nisl, vestibulum diam nisi suscipit eros, consectetur sapien
+          nullam mi facilisis magna sem
         </p>
+
+        <div className="mt-20 flex flex-wrap justify-center">
+          <div className="box1 ">
+            <div className="trophy_icon bg-gray-200">
+              <TrophyTwoTone />
+            </div>
+            <p className="mt-8 text-xl text-black">Qualified Expert</p>
+            <p className="mt-2">
+              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+              magna et dolor diam ultricies.
+            </p>
+          </div>
+          <div className="box1 ">
+            <div className="trophy_icon bg-gray-200">
+              <TrophyTwoTone />
+            </div>
+            <p className="mt-8 text-xl text-black">Qualified Expert</p>
+            <p className="mt-2">
+              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+              magna et dolor diam ultricies.
+            </p>
+          </div>
+          <div className="box1 ">
+            <div className="trophy_icon bg-gray-200">
+              <TrophyTwoTone />
+            </div>
+            <p className="mt-8 text-xl text-black">Qualified Expert</p>
+            <p className="mt-2">
+              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+              magna et dolor diam ultricies.
+            </p>
+          </div>
+          <div className="box1 ">
+            <div className="trophy_icon bg-gray-200">
+              <TrophyTwoTone />
+            </div>
+            <p className="mt-8 text-xl text-black">Qualified Expert</p>
+            <p className="mt-2">
+              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+              magna et dolor diam ultricies.
+            </p>
+          </div>
+          <div className="box1 ">
+            <div className="trophy_icon bg-gray-200">
+              <TrophyTwoTone />
+            </div>
+            <p className="mt-8 text-xl text-black">Qualified Expert</p>
+            <p className="mt-2">
+              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+              magna et dolor diam ultricies.
+            </p>
+          </div>
+          <div className="box1 ">
+            <div className="trophy_icon bg-gray-200">
+              <TrophyTwoTone />
+            </div>
+            <p className="mt-8 text-xl text-black">Qualified Expert</p>
+            <p className="mt-2">
+              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+              magna et dolor diam ultricies.
+            </p>
+          </div>
+        </div>
+
         <div class="container relative m-auto mb-10 flex overflow-x-hidden">
           <br />
           <Marquee>
