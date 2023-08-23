@@ -89,24 +89,6 @@ export function About() {
       </section>
       <section className="px-4 pb-32 pt-12">
         <div className="container mx-auto">
-          {/* <PageTitle heading="">
-            JS Scouts Forge is a global recruitment agency specializing in mid
-            to senior level of recruitment. Our specialized recruiters are
-            masters in multiple industries by connecting great companies and
-            outstanding candidates across the globe with its base in Seoul. We
-            provide a number of benefits for employers looking to expand their
-            workforce, such as, provides access to a broad range of job
-            candidates, offers a streamlined recruitment process, and provides a
-            wealth of expertise in the recruitment process. We work with our
-            clients to design optimal organization structures, roles, and
-            responsibilities. We help them hire the right people and advise them
-            on how to reward and motivate their workforce while developing
-            professionals as they navigate and advance their careers. We provide
-            a full cycle of HR solution services such as recruitment, job
-            searches, career advice, CV writing, career coaching, outplacement,
-            and training.
-          </PageTitle> */}
-
           <div className="mb-10">
             <p className="mx-auto w-full text-center text-2xl leading-10">
               JS Scouts Forge is a global recruitment agency specializing in mid

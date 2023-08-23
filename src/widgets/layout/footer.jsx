@@ -6,25 +6,22 @@ const year = new Date().getFullYear();
 
 export function Footer({ socials, menus }) {
   return (
-    <footer className=" relative px-4 pb-6 pt-8">
-      <div className="container mx-auto">
-        <div className="flex flex-wrap pt-6 text-center lg:text-left">
-          <div className="w-full px-4 lg:w-6/12">
+    <footer className="relative px-4 pb-6 pt-8">
+      <div className="container">
+        <div className="flex p-14">
+          <div className="mr-20 px-4">
             <Typography
               variant="h6"
               className="text-bold mb-4 flex items-end"
               color="blue-gray"
             >
-              <img className="mr-4 h-12 w-12" src={logo} alt="logo" />
-              We create opportunities for people to reach their potential
+              <p className="text-5xl text-white">KBM</p>
+              {/* <img className="mr-4 h-12 w-12" src={logo} alt="logo" /> */}
             </Typography>
             <Typography className="font-normal text-blue-gray-500">
-              Merging your vision and our expertise, we help you achieve
-              powerful results! <br />
-              We provide a full cycle of HR solution services such as
-              recruitment, job searches, career advice, CV writing, career
-              coaching, outplacement, and training. <br />
-              Solutions that Deliver Next-Level Insights and Powerful Results.
+              Ornare nunc sodales elementum, <br /> fusce dolor platea quam ac
+              porta id <br />
+              dolor leo libero laoreet aliquet.
             </Typography>
             <div className="mx-auto mb-8 mt-6 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name }) => (
@@ -34,22 +31,61 @@ export function Footer({ socials, menus }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <IconButton color="white" className="rounded-full">
-                    <Typography color={color}>
-                      <i className={`fa-brands fa-${name}`} />
-                    </Typography>
-                  </IconButton>
+                  {/* <IconButton color="white" className="rounded-full"> */}
+                  <Typography color={color} className="mr-3">
+                    <i className={`fa-brands fa-${name}`} />
+                  </Typography>
+                  {/* </IconButton> */}
                 </a>
               ))}
             </div>
           </div>
-          <div className="gap-15 mx-auto mt-12 grid w-max grid-cols-2 lg:mt-0">
-            {menus.map(({ name, items }) => (
+          <div className="flex justify-around">
+            <div className="mr-28">
+              <p className="mb-3 text-xl font-bold text-white">Contact Info</p>
+              <p className="text_color">123 5th Ave, New York, NY 10021</p>
+              <p className="text_color">+1 123 456 7890</p>
+              <p className="text_color">info@example.com</p>
+            </div>
+            <div className="mr-28">
+              <p className="mb-3 text-xl font-bold text-white">Quick Links</p>
+              <a href="">
+                <p className="text_color">Home</p>
+              </a>
+              <a href="">
+                <p className="text_color">About Us</p>
+              </a>
+              <a href="">
+                <p className="text_color">Services</p>
+              </a>
+              <a href="">
+                <p className="text_color">Projects</p>
+              </a>
+              <a href="">
+                <p className="text_color">Contact Us</p>
+              </a>
+            </div>
+            <div>
+              <p className="mb-3 text-xl font-bold text-white">Our Service</p>
+              <a href="">
+                <p className="text_color">Commercial Roofing</p>
+              </a>
+              <a href="">
+                <p className="text_color">Residential Roofing</p>
+              </a>
+              <a href="">
+                <p className="text_color">After Storm Damage</p>
+              </a>
+              <a href="">
+                <p className="text_color">Finance & Insurance</p>
+              </a>
+            </div>
+            {/* {menus.map(({ name, items }) => (
               <div key={name}>
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="mb-2 block font-medium "
+                  className="mb-2 block font-medium"
                 >
                   {name}
                 </Typography>
@@ -70,17 +106,17 @@ export function Footer({ socials, menus }) {
                   ))}
                 </ul>
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
-        <hr className="my-6 border-gray-300" />
+        {/* <hr className="my-6 border-gray-300" /> */}
         <div className="flex flex-wrap items-center justify-center md:justify-between">
-          <div className="mx-auto w-full px-4 text-center">
+          <div className=" w-full px-4 pl-16">
             <Typography
               variant="small"
               className="font-normal text-blue-gray-500"
             >
-              2023 © JS Scouts Forge - HR Recruiting Company
+              2023 © KBM
             </Typography>
           </div>
         </div>
@@ -96,6 +132,21 @@ Footer.defaultProps = {
     {
       color: "blue",
       name: "linkedin",
+      path: "",
+    },
+    {
+      color: "blue",
+      name: "twitter",
+      path: "",
+    },
+    {
+      color: "blue",
+      name: "instagram",
+      path: "",
+    },
+    {
+      color: "blue",
+      name: "youtube",
       path: "",
     },
   ],

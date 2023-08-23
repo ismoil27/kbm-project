@@ -1,16 +1,17 @@
 import React from "react";
 import { Card, CardBody, Typography } from "@material-tailwind/react";
-import { UsersIcon } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-import { FeatureCard } from "@/widgets/cards";
-import { featuresData } from "@/data";
-import Marquee from "react-fast-marquee";
 
-import icon1 from "../../public/img/icon1.png";
-import icon2 from "../../public/img/icon2.png";
-import icon3 from "../../public/img/icon3.png";
-import icon4 from "../../public/img/icon4.png";
-import { PhoneTwoTone, TrophyTwoTone } from "@ant-design/icons";
+import {
+  PhoneTwoTone,
+  TrophyTwoTone,
+  ClockCircleTwoTone,
+  WalletTwoTone,
+  TagTwoTone,
+  CompassTwoTone,
+  BulbTwoTone,
+} from "@ant-design/icons";
+import Number from "@/data/numberAnime";
 
 export function Home() {
   return (
@@ -38,35 +39,11 @@ export function Home() {
       </div>
       <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          {/* <div className=" grid grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map(({ color, title, icon, description }) => (
-              <>
-                <FeatureCard
-                  key={title}
-                  color={color}
-                  title={title}
-                  icon={React.createElement(icon, {
-                    className: "w-5 h-5 text-white ",
-                  })}
-                  description={description}
-                />
-              </>
-            ))}
-          </div> */}
           <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto mt-14 w-full px-4 md:w-5/12">
-              {/* <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
-                <UsersIcon className="h-6 w-6 text-blue-gray-900" />
-              </div> */}
-              {/* <Typography
-                variant="h1"
-                className="width-[200px]  mb-3  font-sans text-5xl text-5xl font-bold"
-                color="blue-gray"
-              > */}
               <h1 className="  mb-3  font-sans text-[45px]  font-bold">
                 Your Hometown Roofing Services Provider
               </h1>
-              {/* </Typography> */}
               <Typography className="mb-8  text-xl font-normal text-blue-gray-500">
                 Condimentum ultrices vitae dictumst augue id porta sed accumsan
                 ut amet varius nibh neque faucibus iaculis interdum erat eget.
@@ -78,7 +55,7 @@ export function Home() {
                 vulputate pretium.
               </Typography>
               <PhoneTwoTone
-                twoToneColor={"red"}
+                twoToneColor={"blue"}
                 style={{
                   padding: "10px",
                   fontSize: "40px",
@@ -89,7 +66,7 @@ export function Home() {
 
               <span className="mx-6 ">24/7 Emergency Roofing Service.</span>
               <br />
-              <span className="ms-20 font-bold text-[#c95746]">
+              <span className="ms-20 font-bold text-[blue]">
                 +1 123 111 2345
               </span>
             </div>
@@ -108,16 +85,6 @@ export function Home() {
           </div>
         </div>
       </section>
-
-      {/* <Typography
-        variant="h2"
-        className="mt-10 text-center font-bold"
-        color="blue-gray"
-      >
-        JS Scouts Forge stands for KCHC:
-      </Typography> */}
-
-      {/* <div className="mt-14 grid grid-cols-1 gap-12 gap-x-24 px-6 md:grid-cols-2 xl:grid-cols-4"> */}
       <div className="mx-2 flex">
         <div
           className="picture_img1 picture_img flex flex-col items-center p-10"
@@ -216,86 +183,135 @@ export function Home() {
           nullam mi facilisis magna sem
         </p>
 
-        <div className="mt-20 flex flex-wrap justify-center">
-          <div className="box1 ">
-            <div className="trophy_icon bg-gray-200">
-              <TrophyTwoTone />
+        <div className=" relative mt-10 flex h-[700px] flex-wrap justify-center p-6">
+          <div className="flex flex-wrap justify-center">
+            <div className="box1 ">
+              <div className="trophy_icon bg-gray-200">
+                <TrophyTwoTone
+                  twoToneColor={"blue"}
+                  style={{
+                    fontSize: "30px",
+                  }}
+                />
+              </div>
+              <p className="mt-8 text-xl text-black">Qualified Expert</p>
+              <p className="mt-2">
+                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+                magna et dolor diam ultricies.
+              </p>
             </div>
-            <p className="mt-8 text-xl text-black">Qualified Expert</p>
-            <p className="mt-2">
-              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-              magna et dolor diam ultricies.
-            </p>
-          </div>
-          <div className="box1 ">
-            <div className="trophy_icon bg-gray-200">
-              <TrophyTwoTone />
+            <div className="box1 ">
+              <div className="trophy_icon bg-gray-200">
+                <BulbTwoTone
+                  twoToneColor={"blue"}
+                  style={{
+                    fontSize: "30px",
+                  }}
+                />
+              </div>
+              <p className="mt-8 text-xl text-black">Workmanship Quality</p>
+              <p className="mt-2">
+                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+                magna et dolor diam ultricies.
+              </p>
             </div>
-            <p className="mt-8 text-xl text-black">Qualified Expert</p>
-            <p className="mt-2">
-              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-              magna et dolor diam ultricies.
-            </p>
-          </div>
-          <div className="box1 ">
-            <div className="trophy_icon bg-gray-200">
-              <TrophyTwoTone />
+            <div className="box1 ">
+              <div className="trophy_icon bg-gray-200">
+                <CompassTwoTone
+                  twoToneColor={"blue"}
+                  style={{
+                    fontSize: "30px",
+                  }}
+                />
+              </div>
+              <p className="mt-8 text-xl text-black">Quality Professionals</p>
+              <p className="mt-2">
+                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
+                magna et dolor diam ultricies.
+              </p>
             </div>
-            <p className="mt-8 text-xl text-black">Qualified Expert</p>
-            <p className="mt-2">
-              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-              magna et dolor diam ultricies.
-            </p>
-          </div>
-          <div className="box1 ">
-            <div className="trophy_icon bg-gray-200">
-              <TrophyTwoTone />
+            <div className="box1 ">
+              <div className="trophy_icon bg-gray-200">
+                <ClockCircleTwoTone
+                  twoToneColor={"blue"}
+                  style={{
+                    fontSize: "30px",
+                  }}
+                />
+              </div>
+              <p className="mt-8 text-xl text-black">Flexible Schedule</p>
+              <p className="mt-2">
+                Sem in eget faucibus massa arcu et elementum sed massa nulla
+                dolor felis dictumst malesuada non.
+              </p>
             </div>
-            <p className="mt-8 text-xl text-black">Qualified Expert</p>
-            <p className="mt-2">
-              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-              magna et dolor diam ultricies.
-            </p>
-          </div>
-          <div className="box1 ">
-            <div className="trophy_icon bg-gray-200">
-              <TrophyTwoTone />
+            <div className="box1 ">
+              <div className="trophy_icon bg-gray-200">
+                <WalletTwoTone
+                  twoToneColor={"blue"}
+                  style={{
+                    fontSize: "30px",
+                  }}
+                />
+              </div>
+              <p className="mt-8 text-xl text-black">Affordable Package</p>
+              <p className="mt-2">
+                Sem in eget faucibus massa arcu et elementum sed massa nulla
+                dolor felis dictumst malesuada non.
+              </p>
             </div>
-            <p className="mt-8 text-xl text-black">Qualified Expert</p>
-            <p className="mt-2">
-              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-              magna et dolor diam ultricies.
-            </p>
-          </div>
-          <div className="box1 ">
-            <div className="trophy_icon bg-gray-200">
-              <TrophyTwoTone />
+            <div className="box1 ">
+              <div className="trophy_icon bg-gray-200">
+                <TagTwoTone
+                  twoToneColor={"blue"}
+                  style={{
+                    fontSize: "30px",
+                  }}
+                />
+              </div>
+              <p className="mt-8 text-xl text-black">Special Offer</p>
+              <p className="mt-2">
+                Sem in eget faucibus massa arcu et elementum sed massa nulla
+                dolor felis dictumst malesuada non.
+              </p>
             </div>
-            <p className="mt-8 text-xl text-black">Qualified Expert</p>
-            <p className="mt-2">
-              Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-              magna et dolor diam ultricies.
-            </p>
+            <div className="bg_pic_logo"></div>
           </div>
         </div>
+      </section>
+      <section className="mt-52">
+        <div class="mx-2.5 mb-40 flex justify-center">
+          <div className="mx-20 flex  flex-col items-center leading-6">
+            <h1 className="text-8xl font-bold ">
+              <Number n={1280} />
+            </h1>
+            <span>Commercial Projects</span>
+          </div>
 
-        <div class="container relative m-auto mb-10 flex overflow-x-hidden">
-          <br />
-          <Marquee>
-            <span class="mx-10 text-2xl"> FINANCE AND ACCOUNTING</span>
-            <span class="mx-10 text-2xl"> CORPORATE FUNCTIONS</span>
-            <span class="mx-10 text-2xl"> MANUFACTURING & ENGINEERING</span>
-            <span class="mx-10 text-2xl"> INFORMATION TECHNOLOGY</span>
-            <span class="mx-10 text-2xl"> HEALTHCARE</span>
-            <span class="mx-10 text-2xl"> SALES & MARKETING</span>
-            <span class="mx-10 text-2xl"> SUPPLY CHAIN</span>
-            <span class="mx-10 text-2xl"> HOSPITALITY</span>
-            <span class="mx-10 text-2xl"> EDUCATION</span>
-          </Marquee>
+          <div className="mx-20 flex flex-col items-center leading-6">
+            <h1 className="text-8xl font-bold ">
+              <Number n={1420} />
+            </h1>
+            <span>Residential Projects</span>
+          </div>
+
+          <div className="mx-20 flex flex-col  items-center leading-6">
+            <h1 className="flex text-8xl font-bold">
+              <Number n={20} />+
+            </h1>
+            <span>Hard Working Employees</span>
+          </div>
+
+          <div className="mx-20 flex flex-col items-center leading-6">
+            <h1 className="text-8xl font-bold ">
+              <Number n={800} />
+            </h1>
+            <span>Happy Customers</span>
+          </div>
         </div>
       </section>
 
-      <div className="bg-gray-300">
+      <div className="bg-[#000422]">
         <Footer />
       </div>
     </>
@@ -303,3 +319,7 @@ export function Home() {
 }
 
 export default Home;
+
+{
+  /* <div className="bg-[#000422]"> */
+}
