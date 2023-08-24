@@ -97,7 +97,7 @@ export function Services() {
       <section className="px-36">
         <div className="relative">
           <img
-            src="/public/roofPics/services1.jpeg"
+            src="/roofPics/services1.jpeg"
             className="services_pics"
             alt=""
           />
@@ -166,7 +166,7 @@ export function Services() {
       <section className="mt-20 px-36">
         <div className="relative">
           <img
-            src="/public/roofPics/services2.jpeg"
+            src="/roofPics/services2.jpeg"
             className="services_pics"
             alt=""
           />

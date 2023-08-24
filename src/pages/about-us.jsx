@@ -38,44 +38,12 @@ export function AboutUs() {
         </div>
       </div>
 
-      {/* ============== Section 1 ================= */}
-      {/* <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
-        <div className="container mx-auto">
-          <div className="mt-44 flex flex-wrap items-center">
-            <div className="mx-auto -mt-2 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
-                <SparklesIcon className="h-6 w-6 text-blue-gray-900" />
-              </div>
-              <Typography className="mb-8 text-3xl font-normal text-blue-gray-500">
-                Our search expertise and organizational consulting experience
-                empower our clients to develop high-performing leaders, teams,
-                and organizations not only in South Korea, but also in other
-                regions.
-              </Typography>
-            </div>
-            <div className="mx-auto mt-9 flex w-full justify-center px-4 md:w-5/12 lg:mt-0">
-              <Card className="shadow-lg shadow-gray-500/10">
-                <CardBody>
-                  <video
-                    autoPlay={true}
-                    loop
-                    muted
-                    src={
-                      "https://firebasestorage.googleapis.com/v0/b/aema-image-upload.appspot.com/o/JS_Scouts_Forge_is_a_specialized_global_recruitment_firm_located.mp4?alt=media&token=4b6ce6ac-4e71-4d9e-9b79-2298c0dda58b"
-                    }
-                  />
-                </CardBody>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* ========== Section 2 ============= */}
+      {/* ========== Section 1 ============= */}
       <section className="mb-20 mt-20">
         <div className="flex justify-between px-32">
           <div className="mr-20">
             <img
-              src="/public/roofPics/roofing-professional-workers.jpg"
+              src="/roofPics/roofing-professional-workers.jpg"
               alt=""
               className="about_page_img"
             />
@@ -207,7 +175,7 @@ export function AboutUs() {
           autoPlay={true}
           muted
           loop
-          src={"/public/videos/road.mp4"}
+          src={"/videos/road.mp4"}
           className=""
         />
         <div className="bg_pic_logo_about"></div>
