@@ -24,7 +24,7 @@ export function AboutUs() {
               <Typography
                 variant="h3"
                 color="white"
-                className="mb-6 text-4xl font-black"
+                className="mb-6 text-6xl font-black"
               >
                 About Us
               </Typography>

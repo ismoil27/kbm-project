@@ -123,7 +123,7 @@ export function Navbar({ brandName, action }) {
         className="capitalize"
       >
         <Link
-          to={"/join-us"}
+          to={"/projects"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
           Projects

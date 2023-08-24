@@ -20,7 +20,7 @@ export function Services() {
               <Typography
                 variant="h3"
                 color="white"
-                className="mb-6 text-4xl font-black"
+                className="mb-6 text-6xl font-black"
               >
                 Services
               </Typography>
@@ -136,25 +136,25 @@ export function Services() {
                 <div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">EPDM Roofing</p>
                   </div>
                 </div>
                 <div>
                   <div className="flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">TPO Roofing</p>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="mb-2 flex items-center">
                   <CheckCircleTwoTone className="mr-4" />
-                  <p className="text-gray-600">Built-up Flat Roofing</p>
+                  <p className="text-gray-600">PVC Roofing</p>
                 </div>
                 <div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Commercial Skylight</p>
                   </div>
                 </div>
               </div>
@@ -200,42 +200,42 @@ export function Services() {
               <div className="mr-36">
                 <div className="mb-2 flex items-center">
                   <CheckCircleTwoTone className="mr-4" />
-                  <p className="text-gray-600">Built-up Flat Roofing</p>
+                  <p className="text-gray-600">Shingle Roofing</p>
                 </div>
                 <div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Metal Roofing</p>
                   </div>
                 </div>
                 <div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Tile Roofing</p>
                   </div>
                   <div className="flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Slate Roofing</p>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="mb-2 flex items-center">
                   <CheckCircleTwoTone className="mr-4" />
-                  <p className="text-gray-600">Built-up Flat Roofing</p>
+                  <p className="text-gray-600">Flat Roofing</p>
                 </div>
                 <div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Wood Shake Roofing</p>
                   </div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Skylight Roofing</p>
                   </div>
                   <div className="mb-2 flex items-center">
                     <CheckCircleTwoTone className="mr-4" />
-                    <p className="text-gray-600">Satisfied Guaranteed</p>
+                    <p className="text-gray-600">Low Slope Roofing</p>
                   </div>
                 </div>
               </div>
