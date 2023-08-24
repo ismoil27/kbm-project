@@ -85,7 +85,7 @@ export function Home() {
           </div>
         </div>
       </section>
-      <div className="mx-2 flex">
+      <div className="mx-2 flex justify-center">
         <div
           className="picture_img1 picture_img flex flex-col items-center p-10"
           style={{ width: "358px", height: "500px" }}

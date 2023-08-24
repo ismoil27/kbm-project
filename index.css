@@ -106,11 +106,14 @@
 /* services page */
 .services_pics {
   z-index: -10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pic_texts {
   top: 0px;
-  left: 0px;
+  left: 200px;
 }
 
 .service_line::after {
@@ -126,4 +129,13 @@
 /* footer */
 .text_color {
   color: #8e91aa;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1500px) {
+  .pic_texts {
+    top: 0px;
+    left: 0px;
+  }
 }

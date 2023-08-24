@@ -120,7 +120,7 @@ export function Services() {
             </p>
           </div>
         </div>
-        <div className="mt-10 flex">
+        <div className="mt-10 flex justify-center">
           <div className="mr-20 w-[40%] text-gray-600">
             Risus varius adipiscing nam mauris, sit vel nunc lorem lacus, ut
             volutpat enim orci molestie est et lorem laoreet sit quis amet, nunc
@@ -189,7 +189,7 @@ export function Services() {
             </p>
           </div>
         </div>
-        <div className="mt-10 flex">
+        <div className="mt-10 flex justify-center">
           <div className="mr-20 w-[40%] text-gray-600">
             Risus varius adipiscing nam mauris, sit vel nunc lorem lacus, ut
             volutpat enim orci molestie est et lorem laoreet sit quis amet, nunc
