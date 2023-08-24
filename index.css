@@ -103,6 +103,26 @@
   z-index: -10;
 }
 
+/* services page */
+.services_pics {
+  z-index: -10;
+}
+
+.pic_texts {
+  top: 0px;
+  left: 0px;
+}
+
+.service_line::after {
+  content: "";
+  width: 230px;
+  height: 2px;
+  border-bottom: 1px solid red;
+  display: inline-block;
+  margin-left: 10px;
+  /* margin-right: 20px; */
+}
+
 /* footer */
 .text_color {
   color: #8e91aa;
