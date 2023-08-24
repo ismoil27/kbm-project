@@ -1,12 +1,4 @@
-import {
-  Home,
-  Services,
-  JoinUs,
-  About,
-  Contact,
-  Clients,
-  Candidates,
-} from "@/pages";
+import { Home, AboutUs, JoinUs, Contact, Services, Candidates } from "@/pages";
 
 export const routes = [
   {
@@ -15,19 +7,14 @@ export const routes = [
     element: <Home />,
   },
   {
-    name: "About Company",
-    path: "/about-company",
-    element: <About />,
+    name: "about-us",
+    path: "/about-us",
+    element: <AboutUs />,
   },
   {
     name: "Services",
     path: "/services",
     element: <Services />,
-  },
-  {
-    name: "Clients and Candidates",
-    path: "/clients",
-    element: <Clients />,
   },
   {
     name: "Clients and Candidates",

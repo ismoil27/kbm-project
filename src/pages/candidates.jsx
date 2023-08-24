@@ -110,7 +110,7 @@ export function Candidates() {
         </div>
       </div>
 
-      <div className="bg-gray-300">
+      <div className="bg-[#000422]">
         <Footer />
       </div>
     </>

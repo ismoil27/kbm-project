@@ -194,7 +194,9 @@ export function Home() {
                   }}
                 />
               </div>
-              <p className="mt-8 text-xl text-black">Qualified Expert</p>
+              <p className="mt-8 text-xl font-bold text-black">
+                Qualified Expert
+              </p>
               <p className="mt-2">
                 Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
                 magna et dolor diam ultricies.
@@ -209,7 +211,9 @@ export function Home() {
                   }}
                 />
               </div>
-              <p className="mt-8 text-xl text-black">Workmanship Quality</p>
+              <p className="mt-8 text-xl font-bold text-black">
+                Workmanship Quality
+              </p>
               <p className="mt-2">
                 Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
                 magna et dolor diam ultricies.
@@ -224,7 +228,9 @@ export function Home() {
                   }}
                 />
               </div>
-              <p className="mt-8 text-xl text-black">Quality Professionals</p>
+              <p className="mt-8 text-xl font-bold text-black">
+                Quality Professionals
+              </p>
               <p className="mt-2">
                 Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
                 magna et dolor diam ultricies.
@@ -239,7 +245,9 @@ export function Home() {
                   }}
                 />
               </div>
-              <p className="mt-8 text-xl text-black">Flexible Schedule</p>
+              <p className="mt-8 text-xl font-bold text-black">
+                Flexible Schedule
+              </p>
               <p className="mt-2">
                 Sem in eget faucibus massa arcu et elementum sed massa nulla
                 dolor felis dictumst malesuada non.
@@ -254,7 +262,9 @@ export function Home() {
                   }}
                 />
               </div>
-              <p className="mt-8 text-xl text-black">Affordable Package</p>
+              <p className="mt-8 text-xl font-bold text-black">
+                Affordable Package
+              </p>
               <p className="mt-2">
                 Sem in eget faucibus massa arcu et elementum sed massa nulla
                 dolor felis dictumst malesuada non.
@@ -269,7 +279,7 @@ export function Home() {
                   }}
                 />
               </div>
-              <p className="mt-8 text-xl text-black">Special Offer</p>
+              <p className="mt-8 text-xl font-bold text-black">Special Offer</p>
               <p className="mt-2">
                 Sem in eget faucibus massa arcu et elementum sed massa nulla
                 dolor felis dictumst malesuada non.

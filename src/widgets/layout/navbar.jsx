@@ -88,7 +88,7 @@ export function Navbar({ brandName, action }) {
         className="capitalize"
       >
         <Link
-          to={"/services"}
+          to={"/about-us"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
           About Us
@@ -108,7 +108,7 @@ export function Navbar({ brandName, action }) {
         className="cursor-pointer text-xl font-normal capitalize"
       >
         <Link
-          to={"/clients"}
+          to={"/services"}
           className="flex items-center gap-1 p-1 text-xl font-normal"
         >
           Services
