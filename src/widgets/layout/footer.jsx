@@ -1,10 +1,9 @@
 import PropTypes from "prop-types";
-import { Typography, IconButton } from "@material-tailwind/react";
-import logo from "../../../public/img/logo.jpg";
+import { Typography } from "@material-tailwind/react";
 
 const year = new Date().getFullYear();
 
-export function Footer({ socials, menus }) {
+export function Footer({ socials }) {
   return (
     <footer className="relative px-4 pb-6 pt-8">
       <div className="container">
@@ -16,7 +15,6 @@ export function Footer({ socials, menus }) {
               color="blue-gray"
             >
               <p className="text-5xl text-white">KBM</p>
-              {/* <img className="mr-4 h-12 w-12" src={logo} alt="logo" /> */}
             </Typography>
             <Typography className="font-normal text-blue-gray-500">
               Ornare nunc sodales elementum, <br /> fusce dolor platea quam ac
@@ -31,11 +29,9 @@ export function Footer({ socials, menus }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {/* <IconButton color="white" className="rounded-full"> */}
                   <Typography color={color} className="mr-3">
                     <i className={`fa-brands fa-${name}`} />
                   </Typography>
-                  {/* </IconButton> */}
                 </a>
               ))}
             </div>
@@ -80,33 +76,6 @@ export function Footer({ socials, menus }) {
                 <p className="text_color">Finance & Insurance</p>
               </a>
             </div>
-            {/* {menus.map(({ name, items }) => (
-              <div key={name}>
-                <Typography
-                  variant="small"
-                  color="blue-gray"
-                  className="mb-2 block font-medium"
-                >
-                  {name}
-                </Typography>
-                <ul className="mt-3">
-                  {items.map((item) => (
-                    <li key={item.name}>
-                      <Typography
-                        as="a"
-                        href={item.path}
-                        // target="_blank"
-                        rel="noreferrer"
-                        variant="small"
-                        className="text-bold  mb-2 block font-normal "
-                      >
-                        {item.name}
-                      </Typography>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))} */}
           </div>
         </div>
         {/* <hr className="my-6 border-gray-300" /> */}

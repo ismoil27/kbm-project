@@ -5,13 +5,9 @@ import {
   Navbar as MTNavbar,
   MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Dropdown } from "antd";
-
-import brandLogo from "../../../public/img/favicon.png";
 
 export function Navbar({ brandName, action }) {
   const [openNav, setOpenNav] = React.useState(false);
@@ -23,48 +19,8 @@ export function Navbar({ brandName, action }) {
     );
   }, []);
 
-  // const items = [
-  //   {
-  //     label: (
-  //       <Link
-  //         to={"/clients"}
-  //         className="flex items-center gap-1 p-1 font-normal"
-  //       >
-  //         Clients
-  //       </Link>
-  //     ),
-  //     key: "0",
-  //   },
-  //   {
-  //     label: (
-  //       <Link
-  //         to={"/candidates"}
-  //         className="flex items-center gap-1 p-1 font-normal"
-  //       >
-  //         Candidates
-  //       </Link>
-  //     ),
-  //     key: "1",
-  //   },
-  // ];
-
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      {/* <Typography
-        key={name}
-        as="li"
-        variant="small"
-        color="inherit"
-        className="capitalize"
-      >
-        <Link
-          to={"/"}
-          className="flex items-center gap-1 p-1 text-xl font-normal"
-        >
-          <img src={brandLogo} alt="" width={90} />
-        </Link>
-      </Typography> */}
-
       <Typography
         key={name}
         as="li"
@@ -94,12 +50,7 @@ export function Navbar({ brandName, action }) {
           About Us
         </Link>
       </Typography>
-      {/* <Dropdown
-        menu={{
-          items,
-        }}
-        trigger={["click", "hover"]}
-      > */}
+
       <Typography
         key={name}
         as="li"
