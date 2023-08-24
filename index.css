@@ -157,6 +157,16 @@
   margin-right: 20px;
 }
 
+/* contact page */
+.contact_form {
+  background: #fff;
+  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.3);
+}
+
+.input_size {
+  margin-bottom: 20px;
+}
+
 /* footer */
 .text_color {
   color: #8e91aa;

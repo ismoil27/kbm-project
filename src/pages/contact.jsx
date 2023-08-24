@@ -1,5 +1,11 @@
 import { Input, Textarea, Button } from "@material-tailwind/react";
 import { ContactTitle } from "@/widgets/layout/contact-title";
+import { Typography } from "@material-tailwind/react";
+import {
+  EnvironmentTwoTone,
+  PhoneTwoTone,
+  MailTwoTone,
+} from "@ant-design/icons";
 
 import React from "react";
 
@@ -17,38 +23,169 @@ export const Contact = () => {
   // };
   return (
     <>
-      <div className="relative  flex h-screen content-center items-center justify-center pb-32 pt-48">
-        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/contact_page.avif')] bg-cover bg-center" />
-        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
+      <div
+        className="relative flex content-center items-center justify-center pb-32 pt-16"
+        style={{ height: "60vh" }}
+      >
+        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/contac_us.jpeg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
-          <section className="relative  bg-blue-gray-100/100 px-4 py-24">
-            <ContactTitle heading="Contact us">
-              Call or simply message us using the form below and we’ll get
-              straight back in touch.
-            </ContactTitle>
-            <form className="mx-auto mt-12 max-w-3xl text-center">
-              <div className="mb-8 flex gap-8">
-                <Input size="lg" label="Enter your Full Name" />
-                <Input size="lg" label="Enter you Email Address" />
-              </div>
-              <div className="mb-8 flex gap-8">
-                <Input size="lg" label="Enter your Company Name" />
-                <Input size="lg" label="Enter you Phone Number" />
-              </div>
-              <Textarea size="lg" label="Message" rows={8} />
-
-              <Button
-                // onClick={sendEmail}
-                variant="gradient"
-                size="lg"
-                className="mt-8"
+          <div className="flex flex-wrap items-center">
+            <div className="ml-auto mr-auto mt-10 w-full px-4 text-center lg:w-8/12">
+              <Typography
+                variant="h3"
+                color="white"
+                className="mb-6 text-6xl font-black"
               >
-                Send
-              </Button>
-            </form>
-          </section>
+                Contact Us
+              </Typography>
+              <Typography variant="lead" color="white" className="opacity-80">
+                Sapien, eget egestas et sociis donec mauris nulla nisl hac
+                ornare non pellentesque nunc, amet, elit tristique sit viverra
+                risus ornare at nunc turpis.
+              </Typography>
+            </div>
+          </div>
         </div>
       </div>
+
+      <section className="mb-20 mt-20 flex justify-center">
+        <div className="flex justify-center">
+          <div className="mr-20">
+            <p className="text-6xl font-bold">
+              Request a Free <br /> Estimate
+            </p>
+            <p className="mt-6 w-[500px] text-gray-600">
+              Condimentum ultrices vitae dictumst augue id porta sed accumsan ut
+              amet varius nibh neque faucibus iaculis interdum erat eget.
+            </p>
+            <br />
+            <p className="w-[500px] text-gray-500">
+              Neque amet at sit elementum et proin lacus vestibulum amet
+              bibendum purus dolor turpis platea sodales senectus purus donec
+              elit molestie scelerisque amet nullam tincidunt arcu odio enim ut
+              nunc vel, tristique dictumst adipiscing elit ultrices.
+            </p>
+
+            <div className="mt-10 flex items-center pl-10">
+              <EnvironmentTwoTone
+                style={{
+                  padding: "10px",
+                  fontSize: "20px",
+                  background: "rgb(226 232 240)",
+                  borderRadius: "50%",
+                  marginRight: "15px",
+                }}
+              />
+              <div>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: 600,
+                    fontFamily: "Work Sans, sans-serif",
+                  }}
+                >
+                  Address
+                </p>
+                <p className="text-gray-600">123 5th Ave, New York, NY 10021</p>
+              </div>
+            </div>
+
+            <div className="mt-10 flex items-center pl-10">
+              <PhoneTwoTone
+                style={{
+                  padding: "10px",
+                  fontSize: "20px",
+                  background: "rgb(226 232 240)",
+                  borderRadius: "50%",
+                  marginRight: "15px",
+                }}
+              />
+
+              <div className="mr-20">
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: 600,
+                    fontFamily: "Work Sans, sans-serif",
+                  }}
+                >
+                  Call Us
+                </p>
+                <p className="text-gray-600">+1 123 456 7890</p>
+              </div>
+
+              <MailTwoTone
+                style={{
+                  padding: "10px",
+                  fontSize: "20px",
+                  background: "rgb(226 232 240)",
+                  borderRadius: "50%",
+                  marginRight: "15px",
+                }}
+              />
+
+              <div>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: 600,
+                    fontFamily: "Work Sans, sans-serif",
+                  }}
+                >
+                  Email Us
+                </p>
+                <p className="text-gray-600">info@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div className="contact_form flex-1">
+            <div className="h-[630px] w-[600px] pl-10 pr-10 pt-10 ">
+              <div className="mb-10">
+                <Input
+                  required
+                  size="lg"
+                  label="Full name"
+                  className="input_size h-[56px]"
+                />
+              </div>
+              <div className="mb-10">
+                <Input
+                  required
+                  type="email"
+                  size="lg"
+                  label="Active email"
+                  className="input_size h-[56px]"
+                />
+              </div>
+              <div className="mb-10">
+                <Input
+                  required
+                  size="lg"
+                  label="Phone number*"
+                  className="input_size h-[56px]"
+                />
+              </div>
+              <div className="mb-10">
+                <Input
+                  required
+                  size="lg"
+                  label="Subject*"
+                  className="input_size h-[56px]"
+                />
+              </div>
+              <div className="mb-10">
+                <Textarea
+                  size="lg"
+                  label="Message*"
+                  className="input_size h-[80px]"
+                />
+              </div>
+              <Button color="secondary"> Send Request </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
