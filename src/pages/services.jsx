@@ -1,8 +1,6 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
 import { Footer } from "@/widgets/layout";
-import { useNavigate } from "react-router-dom";
-
 import { CheckCircleTwoTone } from "@ant-design/icons";
 
 export function Services() {
@@ -298,7 +296,6 @@ export function Services() {
       </section>
 
       <div className="bg-[#000422]">
-        {/* bg-blue-gray-50/50 */}
         <Footer />
       </div>
     </>

@@ -1,12 +1,9 @@
 import React from "react";
-import { Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import { Footer } from "@/widgets/layout";
-import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
-import { useNavigate } from "react-router-dom";
 import { CheckCircleTwoTone } from "@ant-design/icons";
 
 export function Projects() {
-  const navigate = useNavigate();
   return (
     <>
       <div
