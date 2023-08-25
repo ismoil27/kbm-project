@@ -23,12 +23,7 @@ export function Footer({ socials }) {
             </Typography>
             <div className="mx-auto mb-8 mt-6 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name }) => (
-                <a
-                  key={name}
-                  href="https://www.linkedin.com/company/js-scouts-forge/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a key={name} href="" target="_blank" rel="noopener noreferrer">
                   <Typography color={color} className="mr-3">
                     <i className={`fa-brands fa-${name}`} />
                   </Typography>

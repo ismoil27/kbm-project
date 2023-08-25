@@ -129,7 +129,7 @@ export const Contact = () => {
                 <p
                   style={{
                     fontSize: "1rem",
-                    fontWeight: 600,
+                    fontWeight: 600,  
                     fontFamily: "Work Sans, sans-serif",
                   }}
                 >
@@ -162,7 +162,7 @@ export const Contact = () => {
                 <Input
                   required
                   size="lg"
-                  label="Phone number*"
+                  label="Phone number"
                   className="input_size h-[56px]"
                 />
               </div>
@@ -170,7 +170,7 @@ export const Contact = () => {
                 <Input
                   required
                   size="lg"
-                  label="Subject*"
+                  label="Subject"
                   className="input_size h-[56px]"
                 />
               </div>
