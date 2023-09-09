@@ -76,10 +76,9 @@ export function Projects() {
       <section className="section2_testimony mb-20 flex flex-wrap justify-center">
         <div className="mb-20 mr-36">
           <img
-            src="/roofPics/projects1.jpeg"
+            className="projects_pics"
+            src="/roofPics/projects/projects1_1.jpeg"
             alt=""
-            width={"560px"}
-            height={"220px"}
           />
           <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p>
           <p className="mb-4 text-3xl">Built-Up Flat Roof Installation</p>
@@ -105,10 +104,9 @@ export function Projects() {
         </div>
         <div>
           <img
-            src="/roofPics/projects2.jpeg"
+            className="projects_pics"
+            src="/roofPics/projects/projects1_2.jpeg"
             alt=""
-            width={"560px"}
-            height={"220px"}
           />
           <p className=" my-6 text-[#ff1a1a]">Residential Roofing</p>
           <p className="mb-4 text-3xl">Shingle Roof Replacement</p>
@@ -134,10 +132,9 @@ export function Projects() {
         </div>
         <div className="mb-20 mr-36">
           <img
-            src="/roofPics/projects3.jpeg"
+            className="projects_pics"
+            src="/roofPics/projects/projects1_3.jpeg"
             alt=""
-            width={"560px"}
-            height={"220px"}
           />
           <p className=" my-6 text-[#ff1a1a]">After Storm Damage</p>
           <p className="mb-4 text-3xl">Wood Shake Roof Repair</p>
@@ -163,10 +160,9 @@ export function Projects() {
         </div>
         <div>
           <img
-            src="/roofPics/projects4.jpeg"
+            className="projects_pics"
+            src="/roofPics/projects/projects1_4.jpeg"
             alt=""
-            width={"560px"}
-            height={"220px"}
           />
           <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p>
           <p className="mb-4 text-3xl">Commercial Skylight Installation</p>
