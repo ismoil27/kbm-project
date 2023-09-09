@@ -59,7 +59,18 @@
 
 .box1 {
   width: 350px;
-  height: 250px;
+  height: 300px;
+  border: 1px solid rgba(219, 221, 238, 0.41);
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.08);
+}
+
+.box2 {
+  width: 350px;
+  height: 350px;
   border: 1px solid rgba(219, 221, 238, 0.41);
   margin-right: 40px;
   margin-bottom: 40px;
@@ -72,7 +83,17 @@
   box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.2);
 }
 
+.box2:hover {
+  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.2);
+}
+
 .box1 .trophy_icon {
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 50%;
+}
+
+.box2 .trophy_icon {
   display: inline-block;
   padding: 8px 8px;
   border-radius: 50%;
@@ -166,6 +187,33 @@
 /* footer */
 .text_color {
   color: #8e91aa;
+}
+
+/* ================ urenthan_pictures =============== */
+.urenthan_pictures {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 30%; */
+}
+
+.urenthan_pictures .category_list {
+  width: 220px;
+  background-color: rgb(240, 243, 245);
+  margin-right: 150px;
+  padding: 20px;
+  padding-top: 40px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.urenthan_pictures .category_list .link_texts-active {
+  background-color: rgb(220, 227, 230);
+  border-radius: 10px;
+}
+
+.urenthan_pictures .category_list .link_texts:hover {
+  background-color: rgb(220, 227, 230);
+  border-radius: 10px;
 }
 
 /* media query */

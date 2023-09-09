@@ -8,6 +8,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Dropdown } from "antd";
 
 export function Navbar({ brandName, action }) {
   const [openNav, setOpenNav] = React.useState(false);
@@ -18,6 +19,65 @@ export function Navbar({ brandName, action }) {
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
+
+  const items = [
+    {
+      label: (
+        <Link
+          to={"/products/urenthane-panel"}
+          className="flex items-center gap-1 p-1 font-normal"
+        >
+          Urenthane Panel
+        </Link>
+      ),
+      key: "0",
+    },
+    {
+      label: (
+        <Link
+          to={"/products/glass-wool-panel"}
+          className="flex items-center gap-1 p-1 font-normal"
+        >
+          Glass Wool Panel
+        </Link>
+      ),
+      key: "1",
+    },
+
+    {
+      label: (
+        <Link
+          to={"/products/eps-panel"}
+          className="flex items-center gap-1 p-1 font-normal"
+        >
+          EPS Panel
+        </Link>
+      ),
+      key: "2",
+    },
+    {
+      label: (
+        <Link
+          to={"/products/metal-panel"}
+          className="flex items-center gap-1 p-1 font-normal"
+        >
+          Metal Panel
+        </Link>
+      ),
+      key: "3",
+    },
+    {
+      label: (
+        <Link
+          to={"/products/others"}
+          className="flex items-center gap-1 p-1 font-normal"
+        >
+          Others
+        </Link>
+      ),
+      key: "4",
+    },
+  ];
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -51,21 +111,22 @@ export function Navbar({ brandName, action }) {
         </Link>
       </Typography>
 
-      <Typography
-        key={name}
-        as="li"
-        variant="small"
-        color="inherit"
-        className="cursor-pointer text-xl font-normal capitalize"
+      <Dropdown
+        menu={{
+          items,
+        }}
+        trigger={["click", "hover"]}
       >
-        <Link
-          to={"/services"}
-          className="flex items-center gap-1 p-1 text-xl font-normal"
+        <Typography
+          key={name}
+          as="li"
+          variant="small"
+          color="inherit"
+          className="cursor-pointer text-xl font-normal capitalize"
         >
-          Services
-        </Link>
-      </Typography>
-      {/* </Dropdown> */}
+          Products
+        </Typography>
+      </Dropdown>
       <Typography
         key={name}
         as="li"

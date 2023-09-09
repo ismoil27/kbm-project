@@ -11,8 +11,10 @@ import {
   BulbTwoTone,
 } from "@ant-design/icons";
 import Number from "@/data/numberAnime";
+import { useNavigate } from "react-router-dom";
 
 export function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
@@ -20,19 +22,20 @@ export function Home() {
 
         <div className="absolute top-0 h-full w-full  bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
-          <p className="-mt-11 text-xl text-white">
-            Your Best Local Roofing Service
-          </p>
+          <p className="-mt-11 text-xl text-white">Your Best Roofing Service</p>
           <h1 className="mt-4 w-3/5 text-7xl text-white">
-            Leading Roofing Service in Daejeon Areas
+            Leading Roofing Service in South Korea
           </h1>
           <p className="mt-10 w-3/5 text-lg text-white">
             Vestibulum, diam vulputate amet cras in diam quis turpis curabitur
             tellus aliquet tellus iaculis tempus, sollicitudin massa duis
             eleifend egestas turpis sit etiam commodo viverra lacinia.
           </p>
-          <button className=" mt-4 rounded-none border-2 p-4 px-8  text-white hover:bg-[#c95746]">
-            View our Services
+          <button
+            onClick={() => navigate("/products/urenthane-panel")}
+            className="mt-4 rounded-none border-2 p-4 px-8  text-white hover:bg-[#c95746]"
+          >
+            View our Products
           </button>
         </div>
       </div>
