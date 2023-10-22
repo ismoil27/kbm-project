@@ -27,9 +27,9 @@ export function Home() {
             Leading Roofing Service in South Korea
           </h1>
           <p className="mt-10 w-3/5 text-lg text-white">
-            Vestibulum, diam vulputate amet cras in diam quis turpis curabitur
-            tellus aliquet tellus iaculis tempus, sollicitudin massa duis
-            eleifend egestas turpis sit etiam commodo viverra lacinia.
+            Elevate your home's protection and curb appeal with our expert
+            roofing services, ensuring your peace of mind under every weather
+            condition.
           </p>
           <button
             onClick={() => navigate("/products/urenthane-panel")}
@@ -180,9 +180,8 @@ export function Home() {
         />
         <h1 className="mt-2 text-center text-4xl font-bold">Why Choose Us</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-400">
-          Ipsum ornare eu nibh sagittis nunc quisque viverra fringilla egestas
-          dictumst nisl, vestibulum diam nisi suscipit eros, consectetur sapien
-          nullam mi facilisis magna sem
+          We're not just your roofing experts; we're your partners in progress.
+          Our commitment to excellence drives us to exceed your expectations.
         </p>
 
         <div className=" relative mt-10 flex h-[700px] flex-wrap justify-center p-6">
@@ -200,8 +199,9 @@ export function Home() {
                 Qualified Expert
               </p>
               <p className="mt-2">
-                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-                magna et dolor diam ultricies.
+                We turn your roofing dreams into a reality, one shingle at a
+                time. Your satisfaction is our top priority, from the first nail
+                to the final inspection.
               </p>
             </div>
             <div className="box1 ">
@@ -217,8 +217,9 @@ export function Home() {
                 Workmanship Quality
               </p>
               <p className="mt-2">
-                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-                magna et dolor diam ultricies.
+                With us, your project is not just a task, but a testament to our
+                passion. Quality craftsmanship and customer satisfaction are our
+                guiding stars.
               </p>
             </div>
             <div className="box1 ">
@@ -234,8 +235,9 @@ export function Home() {
                 Quality Professionals
               </p>
               <p className="mt-2">
-                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-                magna et dolor diam ultricies.
+                Trust in a team that's as committed to your vision as you are.
+                When you choose us, you choose unwavering reliability and a
+                promise of excellence.
               </p>
             </div>
             <div className="box1 ">
@@ -251,8 +253,8 @@ export function Home() {
                 Flexible Schedule
               </p>
               <p className="mt-2">
-                Sem in eget faucibus massa arcu et elementum sed massa nulla
-                dolor felis dictumst malesuada non.
+                Your roofing needs, our unwavering commitment. We are always
+                here to help you!
               </p>
             </div>
             <div className="box1 ">
@@ -268,8 +270,9 @@ export function Home() {
                 Affordable Package
               </p>
               <p className="mt-2">
-                Sem in eget faucibus massa arcu et elementum sed massa nulla
-                dolor felis dictumst malesuada non.
+                Get the roofing you deserve at a price you can afford. Our
+                competitive pricing ensures everyone can access top-notch
+                roofing services.
               </p>
             </div>
             <div className="box1 ">
@@ -283,8 +286,9 @@ export function Home() {
               </div>
               <p className="mt-8 text-xl font-bold text-black">Special Offer</p>
               <p className="mt-2">
-                Sem in eget faucibus massa arcu et elementum sed massa nulla
-                dolor felis dictumst malesuada non.
+                Affordability is our promise, satisfaction is our guarantee.
+                Roofing solutions that fit your budget without compromising on
+                performance.
               </p>
             </div>
             <div className="bg_pic_logo"></div>
