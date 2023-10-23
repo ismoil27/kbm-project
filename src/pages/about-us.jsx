@@ -28,9 +28,8 @@ export function AboutUs() {
                 About Us
               </Typography>
               <Typography variant="lead" color="white" className=" opacity-80">
-                Sapien, eget egestas et sociis donec mauris nulla nisl hac
-                ornare non pellentesque nunc, amet, elit tristique sit viverra
-                risus ornare at nunc turpis.
+                A Legacy of Roofing Excellence - Serving Homes and Businesses
+                with Trustworthy Roofing Solutions Since 2000.
               </Typography>
             </div>
           </div>
@@ -52,13 +51,15 @@ export function AboutUs() {
               Professional and Expert Roofing Contractor
             </h1>
             <p className="mb-6 leading-7 text-blue-gray-500">
-              Tortor, fames vitae penatibus sed et pharetra mi, mattis est donec
-              amet ac egestas urna, nascetur sem arcu libero, in lacinia amet
-              eget sem neque amet elit venenatis etiam eget eget phasellus quam
-              aliquet sed gravida non varius sit faucibus dictumst quis et arcu
-              dapibus non consequat, venenatis, scelerisque duis purus etiam
-              amet bibendum adipiscing at odio penatibus quis volutpat dis quis
-              egestas lectus.
+              As a professional and expert roofing contractor, we bring a wealth
+              of experience and technical proficiency to every project. Our team
+              of certified professionals is dedicated to delivering top-tier
+              roofing solutions that prioritize quality and craftsmanship. With
+              a commitment to staying at the forefront of industry advancements,
+              we ensure that our clients benefit from the latest innovations and
+              materials. When you choose us as your roofing contractor, you're
+              not just investing in a service; you're investing in the peace of
+              mind that comes from working with a true industry expert.
             </p>
             <div className="flex justify-between">
               <div>
@@ -105,9 +106,9 @@ export function AboutUs() {
         />
         <h1 className="mt-2 text-center text-4xl font-bold">Our Core Values</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-400">
-          Ipsum ornare eu nibh sagittis nunc quisque viverra fringilla egestas
-          dictumst nisl, vestibulum diam nisi suscipit eros, consectetur sapien
-          nullam mi facilisis magna sem
+          We believe in open and honest communication. You can trust us to
+          provide accurate information, fair pricing, and a commitment to
+          integrity in every interaction.
         </p>
 
         <div className="relative mt-10 flex h-[400px] flex-wrap justify-center p-6">
@@ -125,8 +126,8 @@ export function AboutUs() {
                 Qualified Expert
               </p>
               <p className="mt-2">
-                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-                magna et dolor diam ultricies.
+                Our certified professionals bring years of industry experience
+                to ensure top-quality roofing solutions.
               </p>
             </div>
             <div className="box1 ">
@@ -142,8 +143,8 @@ export function AboutUs() {
                 Workmanship Quality
               </p>
               <p className="mt-2">
-                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-                magna et dolor diam ultricies.
+                Our commitment to exceptional workmanship and unwavering quality
+                sets us apart in the roofing industry.
               </p>
             </div>
             <div className="box1 ">
@@ -156,11 +157,12 @@ export function AboutUs() {
                 />
               </div>
               <p className="mt-8 text-xl font-bold text-black">
-                Quality Professionals
+                Customer-Centric Approach:
               </p>
               <p className="mt-2">
-                Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-                magna et dolor diam ultricies.
+                Your satisfaction is our driving force. We listen, understand,
+                and tailor our services to meet your unique needs and exceed
+                your expectations.
               </p>
             </div>
           </div>
@@ -186,13 +188,15 @@ export function AboutUs() {
             Our Mission
           </div>
           <div className="w-64 flex-[3_3_0%] text-gray-600">
-            Augue ut malesuada neque, venenatis enim odio velit imperdiet
-            aliquet justo, blandit massa purus risus amet cras pellentesque nibh
-            tellus senectus condimentum interdum orci arcu ullamcorper volutpat
-            proin eu malesuada neque, sit condimentum amet dolor, tempus varius
-            nec at nam donec sit quam euismod habitasse feugiat quisque
-            dignissim morbi et nunc facilisi facilisis etiam eros, tellus
-            convallis venenatis sit tempor diam, et mattis aliquet.
+            At Korean Building Materials, our mission is to provide superior
+            roofing solutions that not only protect your investments but also
+            enhance the comfort and beauty of your spaces. We are driven by a
+            dedication to quality, integrity, and customer satisfaction. Our
+            goal is to be your trusted roofing partner, offering expertise,
+            reliability, and peace of mind for every project, whether big or
+            small. We strive to build lasting relationships and roofs that stand
+            the test of time, making your safety and satisfaction our ultimate
+            priority.
           </div>
         </div>
         <div className="mt-20 flex">
@@ -200,12 +204,16 @@ export function AboutUs() {
             Our Vision
           </div>
           <div className="w-64 flex-[3_3_0%] text-gray-600">
-            Vulputate venenatis turpis sit ultricies donec accumsan nullam
-            malesuada in dolor adipiscing facilisis eget turpis odio enim
-            senectus quis consequat dolor, condimentum odio risus scelerisque
-            faucibus quam proin tempor proin sit ac sapien nunc, urna eget
-            adipiscing nulla vestibulum in eget pellentesque elit justo, auctor
-            proin nulla sapien.
+            At Korean Building Materials, our vision is to be the leading
+            roofing company known for setting industry standards in innovation,
+            sustainability, and customer-centric solutions. We aspire to create
+            a world where every roof we touch not only protects but also
+            inspires, adding value to the lives of those we serve. We envision a
+            future where our commitment to excellence and environmental
+            responsibility becomes a benchmark for the roofing industry. With
+            unwavering dedication to quality, safety, and customer satisfaction,
+            we aim to leave a legacy of trust, reliability, and roofs that stand
+            the test of time.
           </div>
         </div>
       </section>

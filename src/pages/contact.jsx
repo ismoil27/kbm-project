@@ -40,9 +40,10 @@ export const Contact = () => {
                 Contact Us
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                Sapien, eget egestas et sociis donec mauris nulla nisl hac
-                ornare non pellentesque nunc, amet, elit tristique sit viverra
-                risus ornare at nunc turpis.
+                We're just a message away. Reach out to us for all your roofing
+                inquiries, and we'll promptly respond to assist you. Your
+                roofing project is important to us, and we're here to make it a
+                reality.
               </Typography>
             </div>
           </div>
@@ -53,18 +54,18 @@ export const Contact = () => {
         <div className="flex justify-center">
           <div className="mr-20">
             <p className="text-6xl font-bold">
-              Request a Free <br /> Estimate
+              Get in Touch with <br /> Our Roofing Experts
             </p>
-            <p className="mt-6 w-[500px] text-gray-600">
+            {/* <p className="mt-6 w-[500px] text-gray-600">
               Condimentum ultrices vitae dictumst augue id porta sed accumsan ut
               amet varius nibh neque faucibus iaculis interdum erat eget.
-            </p>
+            </p> */}
             <br />
             <p className="w-[500px] text-gray-500">
-              Neque amet at sit elementum et proin lacus vestibulum amet
-              bibendum purus dolor turpis platea sodales senectus purus donec
-              elit molestie scelerisque amet nullam tincidunt arcu odio enim ut
-              nunc vel, tristique dictumst adipiscing elit ultrices.
+              Our team is ready to assist you with your roofing needs. If you
+              have questions, need a quote, or want to discuss a project, please
+              don't hesitate to reach out. We look forward to hearing from you
+              and helping you with your roofing requirements.
             </p>
 
             <div className="mt-10 flex items-center pl-10">
@@ -129,7 +130,7 @@ export const Contact = () => {
                 <p
                   style={{
                     fontSize: "1rem",
-                    fontWeight: 600,  
+                    fontWeight: 600,
                     fontFamily: "Work Sans, sans-serif",
                   }}
                 >

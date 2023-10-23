@@ -47,14 +47,11 @@ export function Home() {
                 Your Hometown Roofing Services Provider
               </h1>
               <Typography className="mb-8  text-xl font-normal text-blue-gray-500">
-                Condimentum ultrices vitae dictumst augue id porta sed accumsan
-                ut amet varius nibh neque faucibus iaculis interdum erat eget.
-                Rutrum ut volutpat scelerisque auctor ultrices lectus ultrices
-                ullamcorper massa diam etiam amet a, nulla pulvinar sapien,
-                ornare lectus nullam a faucibus diam et lorem diam nullam
-                commodo, vestibulum, pulvinar nisl suspendisse diam venenatis
-                enim nunc integer orci quam risus sit neque, fusce massa
-                vulputate pretium.
+                From residential roof repairs to commercial installations,
+                Korean Building Materials is here to exceed your expectations.
+                Explore our website to discover our portfolio of completed
+                projects and to learn more about our services. Ready to get
+                started? Contact us today for a free consultation and quote.
               </Typography>
               <PhoneTwoTone
                 twoToneColor={"blue"}
@@ -99,8 +96,8 @@ export function Home() {
             Commercial <br /> Roofing
           </p>
           <p className="z-10 mt-2 w-full text-white">
-            Ut amet, risus aliquam sapien amet porta magna quam dictum arcu
-            magna et dolor diam ultricies.
+            Transforming commercial roofs into assets of durability and
+            dependability, one project at a time.
           </p>
           <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
             Learn More
@@ -119,8 +116,8 @@ export function Home() {
             Residential <br /> Roofing
           </p>
           <p className="z-10 mt-2 w-full text-white">
-            Aliquam orci blandit non risus viverra sed iaculis nunc neque augue
-            tincidunt diam turpis nisl.
+            Elevating residential roofs with skill, precision, and care,
+            enhancing the safety and comfort of your home.
           </p>
           <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
             Learn More
@@ -138,8 +135,8 @@ export function Home() {
             After Storm <br /> Damage
           </p>
           <p className="z-10 mt-2 w-full text-white">
-            Amet proin sed ac ut diam varius pharetra tortor eget augue massa
-            pretium turpis praesent.
+            Restoring storm-damaged roofs to their former glory, ensuring safety
+            and peace of mind for homeowners.
           </p>
           <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
             Learn More
@@ -154,11 +151,11 @@ export function Home() {
             04.
           </p>
           <p className="z-10 mt-52 w-full text-3xl text-white">
-            Financing & <br /> Insurance
+            Financing <br />
           </p>
           <p className="z-10 mt-2 w-full text-white">
-            Sed ac, morbi vel viverra scelerisque tellus arcu eget ut duis fames
-            in quam gravida.
+            Empowering your roofing dreams with flexible financing options for a
+            secure and worry-free investment
           </p>
           <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
             Learn More
