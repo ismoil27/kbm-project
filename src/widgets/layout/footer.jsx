@@ -17,9 +17,10 @@ export function Footer({ socials }) {
               <p className="text-5xl text-white">KBM</p>
             </Typography>
             <Typography className="font-normal text-blue-gray-500">
-              Ornare nunc sodales elementum, <br /> fusce dolor platea quam ac
-              porta id <br />
-              dolor leo libero laoreet aliquet.
+              Elevate your home's protection and curb appeal with
+              <br />
+              our expert roofing services, ensuring your <br /> peace of mind
+              under every weather condition.
             </Typography>
             <div className="mx-auto mb-8 mt-6 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name }) => (
@@ -41,19 +42,29 @@ export function Footer({ socials }) {
             <div className="mr-28">
               <p className="mb-3 text-xl font-bold text-white">Quick Links</p>
               <a href="">
-                <p className="text_color">Home</p>
+                <p className="text_color">
+                  <a href="/">Home</a>
+                </p>
               </a>
               <a href="">
-                <p className="text_color">About Us</p>
+                <p className="text_color">
+                  <a href="/about-us">About Us</a>
+                </p>
               </a>
               <a href="">
-                <p className="text_color">Services</p>
+                <p className="text_color">
+                  <a href="/products/urenthane-panel">Products</a>
+                </p>
               </a>
               <a href="">
-                <p className="text_color">Projects</p>
+                <p className="text_color">
+                  <a href="/projects">Projects</a>
+                </p>
               </a>
               <a href="">
-                <p className="text_color">Contact Us</p>
+                <p className="text_color">
+                  <a href="/contact">Contact Us</a>
+                </p>
               </a>
             </div>
             <div>
@@ -78,9 +89,9 @@ export function Footer({ socials }) {
           <div className=" w-full px-4 pl-16">
             <Typography
               variant="small"
-              className="font-normal text-blue-gray-500"
+              className="text-center font-normal text-blue-gray-500"
             >
-              2023 © KBM
+              2023 © Korea Building Materials. All rights reserved.
             </Typography>
           </div>
         </div>

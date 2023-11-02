@@ -99,8 +99,8 @@ export function Home() {
             Transforming commercial roofs into assets of durability and
             dependability, one project at a time.
           </p>
-          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
-            Learn More
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white hover:underline">
+            <a href="/products/urenthane-panel">Learn More</a>
           </p>
           <div className="overlay_background"></div>
         </div>
@@ -119,8 +119,8 @@ export function Home() {
             Elevating residential roofs with skill, precision, and care,
             enhancing the safety and comfort of your home.
           </p>
-          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
-            Learn More
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white hover:underline">
+            <a href="/products/urenthane-panel">Learn More</a>
           </p>
           <div className="overlay_background"></div>
         </div>
@@ -138,8 +138,8 @@ export function Home() {
             Restoring storm-damaged roofs to their former glory, ensuring safety
             and peace of mind for homeowners.
           </p>
-          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
-            Learn More
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white hover:underline">
+            <a href="/products/urenthane-panel">Learn More</a>
           </p>
           <div className="overlay_background"></div>
         </div>
@@ -157,8 +157,8 @@ export function Home() {
             Empowering your roofing dreams with flexible financing options for a
             secure and worry-free investment
           </p>
-          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white">
-            Learn More
+          <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white hover:underline">
+            <a href="/products/urenthane-panel">Learn More</a>
           </p>
           <div className="overlay_background"></div>
         </div>
