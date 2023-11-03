@@ -202,7 +202,7 @@ export function Navbar({ brandName, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "KBM",
+  brandName: "Korea Building Materials",
   className: "text-xl",
   action: (
     <a href="/contact" target="">

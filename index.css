@@ -245,3 +245,9 @@
     padding: 0 5rem;
   }
 }
+
+.logo_home {
+  width: 300px;
+  height: 160px;
+  /* background-color: white; */
+}

@@ -18,13 +18,13 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
-        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/roof_home.jpeg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/roof_home1.jpeg')] bg-cover bg-center" />
 
         <div className="absolute top-0 h-full w-full  bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
-          <p className="-mt-11 text-xl text-white">Your Best Roofing Service</p>
+          <p className="mt-11 text-xl text-white">Your Best Partner</p>
           <h1 className="mt-4 w-3/5 text-7xl text-white">
-            Leading Roofing Service in South Korea
+            Leading Building Products in South Korea
           </h1>
           <p className="mt-10 w-3/5 text-lg text-white">
             Elevate your home's protection and curb appeal with our expert
@@ -44,7 +44,7 @@ export function Home() {
           <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto mt-14 w-full px-4 md:w-5/12">
               <h1 className="  mb-3  font-sans text-[45px]  font-bold">
-                Your Hometown Roofing Services Provider
+                Your Hometown Building Services Provider
               </h1>
               <Typography className="mb-8  text-xl font-normal text-blue-gray-500">
                 From residential roof repairs to commercial installations,

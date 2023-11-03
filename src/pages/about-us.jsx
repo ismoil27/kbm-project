@@ -15,8 +15,8 @@ export function AboutUs() {
         className="relative flex content-center items-center justify-center pb-32 pt-16"
         style={{ height: "60vh" }}
       >
-        <div className="absolute top-0 h-full w-full bg-[url('../../public/roofPics/roofing_aboutus.jpeg')] bg-cover bg-center" />
-        <div className="absolute top-0 h-full w-full  bg-cover bg-center" />
+        <div className="absolute top-0 h-[400px] w-full bg-[url('../../public/roofPics/roofing_aboutus.jpeg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-[400px] w-full  bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto mt-10 w-full px-4 text-center lg:w-8/12">
