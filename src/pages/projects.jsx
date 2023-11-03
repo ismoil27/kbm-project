@@ -40,8 +40,8 @@ export function Projects() {
 
         <div className="featured_project_top flex justify-between">
           <div>
-            <p className="mt-6 text-5xl">Metal Roof</p>
-            <p className="mt-2 text-5xl">Installation</p>
+            <p className="mt-6 text-5xl">Showcased Roofing </p>
+            <p className="mt-2 text-5xl">Excellence</p>
           </div>
           <div className="w-[350px] ">
             <p className="text-gray-600">
@@ -82,7 +82,6 @@ export function Projects() {
             src="/roofPics/projects/projects1_1.jpeg"
             alt=""
           />
-          {/* <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p> */}
           <p className="mb-4 mt-4 text-3xl">Meta Tech Factory</p>
           <p className="w-[540px] text-gray-600">
             We had the privilege of collaborating with Meta Tech, delivering a
@@ -92,20 +91,6 @@ export function Projects() {
             This project exemplifies our commitment to quality craftsmanship and
             client satisfaction."
           </p>
-          {/* <div className="projects_page_texts mt-6 w-[520px]">
-            <p className=" ml-6">
-              " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
-            </p>
-            <div className="flex items-center">
-              <img
-                src="/roofPics/human/person_pic1.png"
-                alt=""
-                className="projects_person_pic"
-              />
-              <span>Edward B. Suarez</span>
-            </div>
-          </div> */}
         </div>
         <div>
           <img
@@ -113,7 +98,6 @@ export function Projects() {
             src="/roofPics/projects/projects1_2.jpeg"
             alt=""
           />
-          {/* <p className=" my-6 text-[#ff1a1a]">Residential Roofing</p> */}
           <p className="mb-4 mt-4 text-3xl">Jinhap Factory</p>
           <p className="w-[540px] text-gray-600">
             Our roofing panels played a pivotal role in the successful
@@ -123,20 +107,6 @@ export function Projects() {
             exemplifies our dedication to reliability and performance in every
             roofing installation.
           </p>
-          {/* <div className="projects_page_texts mt-6 w-[520px]">
-            <p className="ml-6">
-              " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
-            </p>
-            <div className="flex items-center">
-              <img
-                src="/roofPics/human/person_pic1.png"
-                alt=""
-                className="projects_person_pic"
-              />
-              <span>Edward B. Suarez</span>
-            </div>
-          </div> */}
         </div>
         <div className="mb-20 mr-36">
           <img
@@ -144,7 +114,6 @@ export function Projects() {
             src="/roofPics/projects/projects1_3.jpeg"
             alt=""
           />
-          {/* <p className=" my-6 text-[#ff1a1a]">After Storm Damage</p> */}
           <p className="mb-4 mt-4 text-3xl">Hanla Steel Factory</p>
           <p className="w-[540px] text-gray-600">
             Our team proudly provided roofing solutions for the Hanla Steel
@@ -153,20 +122,6 @@ export function Projects() {
             exemplifies our commitment to delivering excellence in every
             installation.
           </p>
-          {/* <div className="projects_page_texts mt-6 w-[520px]">
-            <p className="ml-6">
-              " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
-            </p>
-            <div className="flex items-center">
-              <img
-                src="/roofPics/human/person_pic1.png"
-                alt=""
-                className="projects_person_pic"
-              />
-              <span>Edward B. Suarez</span>
-            </div>
-          </div> */}
         </div>
         <div>
           <img

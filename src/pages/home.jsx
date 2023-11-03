@@ -63,11 +63,9 @@ export function Home() {
                 }}
               />
 
-              <span className="mx-6 ">24/7 Emergency Roofing Service.</span>
+              <span className="mx-6 ">24/7 Contact Number.</span>
               <br />
-              <span className="ms-20 font-bold text-[blue]">
-                +1 123 111 2345
-              </span>
+              <span className="ms-20 font-bold text-[blue]">07075438180</span>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-7/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">

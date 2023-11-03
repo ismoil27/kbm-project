@@ -1,5 +1,4 @@
 import { Input, Textarea, Button } from "@material-tailwind/react";
-import { ContactTitle } from "@/widgets/layout/contact-title";
 import { Typography } from "@material-tailwind/react";
 import {
   EnvironmentTwoTone,
@@ -10,17 +9,6 @@ import {
 import React from "react";
 
 export const Contact = () => {
-  // const sendEmail = () => {
-  //   Email.send({
-  //     Host: "smtp.elasticemail.com",
-  //     Username: "Asadbek Abduvoitov",
-  //     Password: "password",
-  //     To: "abduvoitovasadbek3@gmail.com",
-  //     From: "karol5@gmail.com",
-  //     Subject: "This is the subject",
-  //     Body: "And this is the body",
-  //   }).then((message) => alert(message));
-  // };
   return (
     <>
       <div
@@ -88,7 +76,7 @@ export const Contact = () => {
                 >
                   Address
                 </p>
-                <p className="text-gray-600">123 5th Ave, New York, NY 10021</p>
+                <p className="text-gray-600">South Korea</p>
               </div>
             </div>
 
@@ -113,7 +101,7 @@ export const Contact = () => {
                 >
                   Call Us
                 </p>
-                <p className="text-gray-600">+1 123 456 7890</p>
+                <p className="text-gray-600">07075438180</p>
               </div>
 
               <MailTwoTone
@@ -136,7 +124,9 @@ export const Contact = () => {
                 >
                   Email Us
                 </p>
-                <p className="text-gray-600">info@example.com</p>
+                <p className="text-gray-600">
+                  koreabuildingmaterials@gmail.com
+                </p>
               </div>
             </div>
           </div>
