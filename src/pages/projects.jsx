@@ -23,9 +23,9 @@ export function Projects() {
                 Projects
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                Sapien, eget egestas et sociis donec mauris nulla nisl hac
-                ornare non pellentesque nunc, amet, elit tristique sit viverra
-                risus ornare at nunc turpis.
+                Discover our roofing expertise in action. Each project showcases
+                our commitment to quality, innovation, and precision. Explore
+                the stories behind our exceptional roofing solutions.
               </Typography>
             </div>
           </div>
@@ -34,7 +34,9 @@ export function Projects() {
 
       {/* ============= section 1 ====================== */}
       <section className="featured_project">
-        <span className="featured_project_top font-bold">Featured Project</span>
+        <span className="featured_project_top font-bold">
+          Featured Projects
+        </span>
 
         <div className="featured_project_top flex justify-between">
           <div>
@@ -43,29 +45,29 @@ export function Projects() {
           </div>
           <div className="w-[350px] ">
             <p className="text-gray-600">
-              Eleifend lorem magna nulla tristique amet, at eleifend in ipsum
-              pellentesque ut fermentum ullamcorper vulputate augue scelerisque
-              volutpat magna eget libero dui quam eu ut lacus sem suscipit lacus
-              facilisis fames pellentesque.
+              Our projects tell a story of transformation. From strengthening
+              structures to enhancing energy efficiency, we're your trusted
+              partner in roofing solutions. Explore our portfolio and witness
+              the impact of excellence.
             </p>
           </div>
           <div>
             <div className="mb-2 flex items-center">
               <CheckCircleTwoTone className="mr-4" />
-              <p className="text-gray-600">Nec aliquet fringilla massa</p>
+              <p className="text-gray-600">Achievement</p>
             </div>
             <div>
               <div className="mb-2 flex items-center">
                 <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Vitae scelerisque </p>
+                <p className="text-gray-600">Transformation </p>
               </div>
               <div className="mb-2 flex items-center">
                 <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Aliquam sed pulvinar</p>
+                <p className="text-gray-600">Innovation</p>
               </div>
               <div className="mb-2 flex items-center">
                 <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Ultricies augue semper</p>
+                <p className="text-gray-600">Excellence</p>
               </div>
             </div>
           </div>
