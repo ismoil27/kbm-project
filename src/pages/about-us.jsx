@@ -104,7 +104,7 @@ export function AboutUs() {
             margin: "auto",
           }}
         />
-        <h1 className="mt-2 text-center text-4xl font-bold">Our Core Values</h1>
+        <h1 className="mt-2 text-center text-4xl font-bold">Core Values</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-400">
           We believe in open and honest communication. You can trust us to
           provide accurate information, fair pricing, and a commitment to

@@ -45,7 +45,7 @@ export function GlassWoolPanel() {
             margin: "auto",
           }}
         />
-        <h1 className="mt-2 text-center text-4xl font-bold">Our Core Values</h1>
+        <h1 className="mt-2 text-center text-4xl font-bold">Core Values</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-600">
           It is a sandwich panel, which is made by using glass wool (glass
           fiber) as insulation that is made of fibrous mineralized fiber, which

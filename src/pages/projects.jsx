@@ -23,9 +23,9 @@ export function Projects() {
                 Projects
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                Sapien, eget egestas et sociis donec mauris nulla nisl hac
-                ornare non pellentesque nunc, amet, elit tristique sit viverra
-                risus ornare at nunc turpis.
+                Discover our roofing expertise in action. Each project showcases
+                our commitment to quality, innovation, and precision. Explore
+                the stories behind our exceptional roofing solutions.
               </Typography>
             </div>
           </div>
@@ -34,7 +34,9 @@ export function Projects() {
 
       {/* ============= section 1 ====================== */}
       <section className="featured_project">
-        <span className="featured_project_top font-bold">Featured Project</span>
+        <span className="featured_project_top font-bold">
+          Featured Projects
+        </span>
 
         <div className="featured_project_top flex justify-between">
           <div>
@@ -43,29 +45,29 @@ export function Projects() {
           </div>
           <div className="w-[350px] ">
             <p className="text-gray-600">
-              Eleifend lorem magna nulla tristique amet, at eleifend in ipsum
-              pellentesque ut fermentum ullamcorper vulputate augue scelerisque
-              volutpat magna eget libero dui quam eu ut lacus sem suscipit lacus
-              facilisis fames pellentesque.
+              Our projects tell a story of transformation. From strengthening
+              structures to enhancing energy efficiency, we're your trusted
+              partner in roofing solutions. Explore our portfolio and witness
+              the impact of excellence.
             </p>
           </div>
           <div>
             <div className="mb-2 flex items-center">
               <CheckCircleTwoTone className="mr-4" />
-              <p className="text-gray-600">Nec aliquet fringilla massa</p>
+              <p className="text-gray-600">Achievement</p>
             </div>
             <div>
               <div className="mb-2 flex items-center">
                 <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Vitae scelerisque </p>
+                <p className="text-gray-600">Transformation </p>
               </div>
               <div className="mb-2 flex items-center">
                 <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Aliquam sed pulvinar</p>
+                <p className="text-gray-600">Innovation</p>
               </div>
               <div className="mb-2 flex items-center">
                 <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Ultricies augue semper</p>
+                <p className="text-gray-600">Excellence</p>
               </div>
             </div>
           </div>
@@ -80,14 +82,17 @@ export function Projects() {
             src="/roofPics/projects/projects1_1.jpeg"
             alt=""
           />
-          <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p>
-          <p className="mb-4 text-3xl">Built-Up Flat Roof Installation</p>
+          {/* <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p> */}
+          <p className="mb-4 mt-4 text-3xl">Meta Tech Factory</p>
           <p className="w-[540px] text-gray-600">
-            Risus varius adipiscing nam mauris, sit vel nunc lorem lacus, ut
-            volutpat enim orci molestie est et lorem laoreet sit quis amet, nunc
-            sed quam pretium nibh et, urna proin euismod sagittis.
+            We had the privilege of collaborating with Meta Tech, delivering a
+            roofing solution that perfectly met their needs. Our roofing panels
+            ensured long-lasting durability and airtight protection,
+            contributing to the efficiency and safety of the Meta Tech facility.
+            This project exemplifies our commitment to quality craftsmanship and
+            client satisfaction."
           </p>
-          <div className="projects_page_texts mt-6 w-[520px]">
+          {/* <div className="projects_page_texts mt-6 w-[520px]">
             <p className=" ml-6">
               " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
@@ -100,7 +105,7 @@ export function Projects() {
               />
               <span>Edward B. Suarez</span>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <img
@@ -108,14 +113,17 @@ export function Projects() {
             src="/roofPics/projects/projects1_2.jpeg"
             alt=""
           />
-          <p className=" my-6 text-[#ff1a1a]">Residential Roofing</p>
-          <p className="mb-4 text-3xl">Shingle Roof Replacement</p>
+          {/* <p className=" my-6 text-[#ff1a1a]">Residential Roofing</p> */}
+          <p className="mb-4 mt-4 text-3xl">Jinhap Factory</p>
           <p className="w-[540px] text-gray-600">
-            Risus varius adipiscing nam mauris, sit vel nunc lorem lacus, ut
-            volutpat enim orci molestie est et lorem laoreet sit quis amet, nunc
-            sed quam pretium nibh et, urna proin euismod sagittis.
+            Our roofing panels played a pivotal role in the successful
+            completion of the Jinhap Factory project in Daejeon. We provided a
+            robust and efficient roofing solution, ensuring the factory's
+            structural integrity and weather protection. This project
+            exemplifies our dedication to reliability and performance in every
+            roofing installation.
           </p>
-          <div className="projects_page_texts mt-6 w-[520px]">
+          {/* <div className="projects_page_texts mt-6 w-[520px]">
             <p className="ml-6">
               " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
@@ -128,7 +136,7 @@ export function Projects() {
               />
               <span>Edward B. Suarez</span>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mb-20 mr-36">
           <img
@@ -136,14 +144,16 @@ export function Projects() {
             src="/roofPics/projects/projects1_3.jpeg"
             alt=""
           />
-          <p className=" my-6 text-[#ff1a1a]">After Storm Damage</p>
-          <p className="mb-4 text-3xl">Wood Shake Roof Repair</p>
+          {/* <p className=" my-6 text-[#ff1a1a]">After Storm Damage</p> */}
+          <p className="mb-4 mt-4 text-3xl">Hanla Steel Factory</p>
           <p className="w-[540px] text-gray-600">
-            Risus varius adipiscing nam mauris, sit vel nunc lorem lacus, ut
-            volutpat enim orci molestie est et lorem laoreet sit quis amet, nunc
-            sed quam pretium nibh et, urna proin euismod sagittis.
+            Our team proudly provided roofing solutions for the Hanla Steel
+            project in Korea. With our top-quality roofing panels, we ensured
+            the facility's durability and energy efficiency. This project
+            exemplifies our commitment to delivering excellence in every
+            installation.
           </p>
-          <div className="projects_page_texts mt-6 w-[520px]">
+          {/* <div className="projects_page_texts mt-6 w-[520px]">
             <p className="ml-6">
               " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
@@ -156,7 +166,7 @@ export function Projects() {
               />
               <span>Edward B. Suarez</span>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <img
@@ -164,14 +174,18 @@ export function Projects() {
             src="/roofPics/projects/projects1_4.jpeg"
             alt=""
           />
-          <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p>
-          <p className="mb-4 text-3xl">Commercial Skylight Installation</p>
-          <p className="w-[540px] text-gray-600">
-            Risus varius adipiscing nam mauris, sit vel nunc lorem lacus, ut
-            volutpat enim orci molestie est et lorem laoreet sit quis amet, nunc
-            sed quam pretium nibh et, urna proin euismod sagittis.
+          {/* <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p> */}
+          <p className="mb-4 mt-4 text-3xl">
+            Carbon Compound materials Company
           </p>
-          <div className="projects_page_texts mt-6 w-[520px]">
+          <p className="w-[540px] text-gray-600">
+            We were honored to collaborate with Carbon Compound Materials in
+            Korea to enhance their facility with our roofing panels. Our expert
+            team delivered a sustainable roofing solution, ensuring the utmost
+            protection for their valuable assets. This project stands as a
+            testament to our commitment to innovation and quality.
+          </p>
+          {/* <div className="projects_page_texts mt-6 w-[520px]">
             <p className="ml-6">
               " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
@@ -184,7 +198,7 @@ export function Projects() {
               />
               <span>Edward B. Suarez</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

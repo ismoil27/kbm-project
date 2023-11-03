@@ -43,7 +43,7 @@ export function MetalPanel() {
             margin: "auto",
           }}
         />
-        <h1 className="mt-2 text-center text-4xl font-bold">Our Core Values</h1>
+        <h1 className="mt-2 text-center text-4xl font-bold">Core Values</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-600">
           Metal Panel by securing steel strength of the panel itself and
           flatness can create refined and neat exterior which could not be

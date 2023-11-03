@@ -44,7 +44,7 @@ export function EpsPanel() {
             margin: "auto",
           }}
         />
-        <h1 className="mt-2 text-center text-4xl font-bold">Our Core Values</h1>
+        <h1 className="mt-2 text-center text-4xl font-bold">Core Values</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-600">
           The fire-retardant EPS panel can be applied to all parts of the same
           application as the existing EPS, and it prevents various fire
@@ -191,32 +191,13 @@ export function EpsPanel() {
         </div>
 
         <div>
-          <img
-            className="mb-12"
-            src="/roofPics/glass/product02_01.jpeg"
-            alt=""
-          />
+          <img className="mb-12" src="/roofPics/eps/eps1.jpeg" alt="" />
           <hr />
-          <img
-            className="mb-12"
-            src="/roofPics/glass/product02_02.jpeg"
-            alt=""
-          />
-          <img
-            className="mb-14"
-            src="/roofPics/glass/product02_03.jpeg"
-            alt=""
-          />
-          <img
-            className="mb-12"
-            src="/roofPics/glass/product02_04.jpeg"
-            alt=""
-          />
-          <img
-            className="mb-16"
-            src="/roofPics/glass/product02_05.jpeg"
-            alt=""
-          />
+          <img className="mb-12" src="/roofPics/eps/eps2.jpeg" alt="" />
+          <hr />
+          <img className="mb-14" src="/roofPics/eps/eps3.jpeg" alt="" />
+          <hr />
+          <img className="mb-12" src="/roofPics/eps/eps4.jpeg" alt="" />
         </div>
       </section>
 
