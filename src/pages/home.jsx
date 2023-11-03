@@ -18,9 +18,9 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
-        <div className="absolute top-0 h-full w-full bg-[url('../../public/img/roof_home1.jpeg')] bg-cover bg-center" />
+        <div className="blur-blackish absolute top-0 h-full w-full bg-[url('../../public/img/roof_home1.jpeg')] bg-cover bg-center" />
 
-        <div className="absolute top-0 h-full w-full  bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-cover bg-center " />
         <div className="max-w-8xl container relative mx-auto">
           <p className="mt-11 text-xl text-white">Your Best Partner</p>
           <h1 className="mt-4 w-3/5 text-7xl text-white">

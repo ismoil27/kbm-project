@@ -35,9 +35,9 @@ export function Footer({ socials }) {
           <div className="flex justify-around">
             <div className="mr-28">
               <p className="mb-3 text-xl font-bold text-white">Contact Info</p>
-              <p className="text_color">123 5th Ave, New York, NY 10021</p>
-              <p className="text_color">+1 123 456 7890</p>
-              <p className="text_color">info@example.com</p>
+              <p className="text_color">South Korea</p>
+              <p className="text_color">07075438180</p>
+              <p className="text_color">koreabuildingmaterials@gmail.com</p>
             </div>
             <div className="mr-28">
               <p className="mb-3 text-xl font-bold text-white">Quick Links</p>
