@@ -23,9 +23,9 @@ export function Projects() {
                 Projects
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                Discover our roofing expertise in action. Each project showcases
-                our commitment to quality, innovation, and precision. Explore
-                the stories behind our exceptional roofing solutions.
+                Discover our building expertise in action. Each project
+                showcases our commitment to quality, innovation, and precision.
+                Explore the stories behind our exceptional building solutions.
               </Typography>
             </div>
           </div>
@@ -40,14 +40,14 @@ export function Projects() {
 
         <div className="featured_project_top flex justify-between">
           <div>
-            <p className="mt-6 text-5xl">Showcased Roofing </p>
+            <p className="mt-6 text-5xl">Showcased Building </p>
             <p className="mt-2 text-5xl">Excellence</p>
           </div>
           <div className="w-[350px] ">
             <p className="text-gray-600">
               Our projects tell a story of transformation. From strengthening
               structures to enhancing energy efficiency, we're your trusted
-              partner in roofing solutions. Explore our portfolio and witness
+              partner in building solutions. Explore our portfolio and witness
               the impact of excellence.
             </p>
           </div>
@@ -85,8 +85,8 @@ export function Projects() {
           <p className="mb-4 mt-4 text-3xl">Meta Tech Factory</p>
           <p className="w-[540px] text-gray-600">
             We had the privilege of collaborating with Meta Tech, delivering a
-            roofing solution that perfectly met their needs. Our roofing panels
-            ensured long-lasting durability and airtight protection,
+            building solution that perfectly met their needs. Our building
+            panels ensured long-lasting durability and airtight protection,
             contributing to the efficiency and safety of the Meta Tech facility.
             This project exemplifies our commitment to quality craftsmanship and
             client satisfaction."
@@ -100,12 +100,12 @@ export function Projects() {
           />
           <p className="mb-4 mt-4 text-3xl">Jinhap Factory</p>
           <p className="w-[540px] text-gray-600">
-            Our roofing panels played a pivotal role in the successful
+            Our building panels played a pivotal role in the successful
             completion of the Jinhap Factory project in Daejeon. We provided a
-            robust and efficient roofing solution, ensuring the factory's
+            robust and efficient building solution, ensuring the factory's
             structural integrity and weather protection. This project
             exemplifies our dedication to reliability and performance in every
-            roofing installation.
+            building installation.
           </p>
         </div>
         <div className="mb-20 mr-36">
@@ -116,8 +116,8 @@ export function Projects() {
           />
           <p className="mb-4 mt-4 text-3xl">Hanla Steel Factory</p>
           <p className="w-[540px] text-gray-600">
-            Our team proudly provided roofing solutions for the Hanla Steel
-            project in Korea. With our top-quality roofing panels, we ensured
+            Our team proudly provided building solutions for the Hanla Steel
+            project in Korea. With our top-quality building panels, we ensured
             the facility's durability and energy efficiency. This project
             exemplifies our commitment to delivering excellence in every
             installation.
@@ -135,8 +135,8 @@ export function Projects() {
           </p>
           <p className="w-[540px] text-gray-600">
             We were honored to collaborate with Carbon Compound Materials in
-            Korea to enhance their facility with our roofing panels. Our expert
-            team delivered a sustainable roofing solution, ensuring the utmost
+            Korea to enhance their facility with our building panels. Our expert
+            team delivered a sustainable building solution, ensuring the utmost
             protection for their valuable assets. This project stands as a
             testament to our commitment to innovation and quality.
           </p>

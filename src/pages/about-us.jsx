@@ -28,8 +28,8 @@ export function AboutUs() {
                 About Us
               </Typography>
               <Typography variant="lead" color="white" className=" opacity-80">
-                A Legacy of Roofing Excellence - Serving Homes and Businesses
-                with Trustworthy Roofing Solutions Since 2000.
+                A Legacy of Building Products - Serving Homes and Businesses
+                with Trustworthy Product Solutions Since 2020.
               </Typography>
             </div>
           </div>
@@ -48,18 +48,19 @@ export function AboutUs() {
           </div>
           <div className="about_page_right">
             <h1 className="mb-6 text-4xl font-bold leading-10">
-              Professional and Expert Roofing Contractor
+              Professional and Expert Building Products Company
             </h1>
             <p className="mb-6 leading-7 text-blue-gray-500">
-              As a professional and expert roofing contractor, we bring a wealth
-              of experience and technical proficiency to every project. Our team
-              of certified professionals is dedicated to delivering top-tier
-              roofing solutions that prioritize quality and craftsmanship. With
-              a commitment to staying at the forefront of industry advancements,
-              we ensure that our clients benefit from the latest innovations and
-              materials. When you choose us as your roofing contractor, you're
-              not just investing in a service; you're investing in the peace of
-              mind that comes from working with a true industry expert.
+              As a professional and expert building product company, we bring a
+              wealth of experience and technical proficiency to every project.
+              Our team of certified professionals is dedicated to delivering
+              top-tier building solutions that prioritize quality and
+              craftsmanship. With a commitment to staying at the forefront of
+              industry advancements, we ensure that our clients benefit from the
+              latest innovations and materials. When you choose us as your
+              building company, you're not just investing in a service; you're
+              investing in the peace of mind that comes from working with a true
+              industry expert.
             </p>
             <div className="flex justify-between">
               <div>
@@ -127,7 +128,7 @@ export function AboutUs() {
               </p>
               <p className="mt-2">
                 Our certified professionals bring years of industry experience
-                to ensure top-quality roofing solutions.
+                to ensure top-quality product solutions.
               </p>
             </div>
             <div className="box1 ">
@@ -144,7 +145,7 @@ export function AboutUs() {
               </p>
               <p className="mt-2">
                 Our commitment to exceptional workmanship and unwavering quality
-                sets us apart in the roofing industry.
+                sets us apart in the building industry.
               </p>
             </div>
             <div className="box1 ">
@@ -189,14 +190,13 @@ export function AboutUs() {
           </div>
           <div className="w-64 flex-[3_3_0%] text-gray-600">
             At Korean Building Materials, our mission is to provide superior
-            roofing solutions that not only protect your investments but also
+            building solutions that not only protect your investments but also
             enhance the comfort and beauty of your spaces. We are driven by a
             dedication to quality, integrity, and customer satisfaction. Our
-            goal is to be your trusted roofing partner, offering expertise,
-            reliability, and peace of mind for every project, whether big or
-            small. We strive to build lasting relationships and roofs that stand
-            the test of time, making your safety and satisfaction our ultimate
-            priority.
+            goal is to be your trusted partner, offering expertise, reliability,
+            and peace of mind for every project, whether big or small. We strive
+            to build lasting relationships and roofs that stand the test of
+            time, making your safety and satisfaction our ultimate priority.
           </div>
         </div>
         <div className="mt-20 flex">
@@ -205,15 +205,15 @@ export function AboutUs() {
           </div>
           <div className="w-64 flex-[3_3_0%] text-gray-600">
             At Korean Building Materials, our vision is to be the leading
-            roofing company known for setting industry standards in innovation,
-            sustainability, and customer-centric solutions. We aspire to create
-            a world where every roof we touch not only protects but also
-            inspires, adding value to the lives of those we serve. We envision a
-            future where our commitment to excellence and environmental
-            responsibility becomes a benchmark for the roofing industry. With
-            unwavering dedication to quality, safety, and customer satisfaction,
-            we aim to leave a legacy of trust, reliability, and roofs that stand
-            the test of time.
+            building products company known for setting industry standards in
+            innovation, sustainability, and customer-centric solutions. We
+            aspire to create a world where every roof we touch not only protects
+            but also inspires, adding value to the lives of those we serve. We
+            envision a future where our commitment to excellence and
+            environmental responsibility becomes a benchmark for the building
+            industry. With unwavering dedication to quality, safety, and
+            customer satisfaction, we aim to leave a legacy of trust,
+            reliability, and roofs that stand the test of time.
           </div>
         </div>
       </section>

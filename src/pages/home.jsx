@@ -28,7 +28,7 @@ export function Home() {
           </h1>
           <p className="mt-10 w-3/5 text-lg text-white">
             Elevate your home's protection and curb appeal with our expert
-            roofing services, ensuring your peace of mind under every weather
+            building products, ensuring your peace of mind under every weather
             condition.
           </p>
           <button
@@ -44,7 +44,7 @@ export function Home() {
           <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto mt-14 w-full px-4 md:w-5/12">
               <h1 className="  mb-3  font-sans text-[45px]  font-bold">
-                Your Hometown Building Services Provider
+                Your Hometown Building Products Provider
               </h1>
               <Typography className="mb-8  text-xl font-normal text-blue-gray-500">
                 From residential roof repairs to commercial installations,
@@ -91,7 +91,7 @@ export function Home() {
             01.
           </p>
           <p className="z-10 mt-52 w-full text-3xl text-white">
-            Commercial <br /> Roofing
+            Commercial <br /> Building
           </p>
           <p className="z-10 mt-2 w-full text-white">
             Transforming commercial roofs into assets of durability and
@@ -111,7 +111,7 @@ export function Home() {
           </p>
 
           <p className="z-10 mt-52 w-full text-3xl text-white">
-            Residential <br /> Roofing
+            Residential <br /> Building
           </p>
           <p className="z-10 mt-2 w-full text-white">
             Elevating residential roofs with skill, precision, and care,
@@ -152,8 +152,8 @@ export function Home() {
             Financing <br />
           </p>
           <p className="z-10 mt-2 w-full text-white">
-            Empowering your roofing dreams with flexible financing options for a
-            secure and worry-free investment
+            Empowering your building dreams with flexible financing options for
+            a secure and worry-free investment
           </p>
           <p className="z-10 mt-10 w-full cursor-pointer text-xl text-white hover:underline">
             <a href="/products/urenthane-panel">Learn More</a>
@@ -175,7 +175,7 @@ export function Home() {
         />
         <h1 className="mt-2 text-center text-4xl font-bold">Why Choose Us</h1>
         <p className="m-auto mt-4 w-6/12 text-center text-gray-400">
-          We're not just your roofing experts; we're your partners in progress.
+          We're not just your building experts; we're your partners in progress.
           Our commitment to excellence drives us to exceed your expectations.
         </p>
 
@@ -194,7 +194,7 @@ export function Home() {
                 Qualified Expert
               </p>
               <p className="mt-2">
-                We turn your roofing dreams into a reality, one shingle at a
+                We turn your building dreams into a reality, one shingle at a
                 time. Your satisfaction is our top priority, from the first nail
                 to the final inspection.
               </p>
@@ -248,7 +248,7 @@ export function Home() {
                 Flexible Schedule
               </p>
               <p className="mt-2">
-                Your roofing needs, our unwavering commitment. We are always
+                Your building needs, our unwavering commitment. We are always
                 here to help you!
               </p>
             </div>
@@ -265,9 +265,9 @@ export function Home() {
                 Affordable Package
               </p>
               <p className="mt-2">
-                Get the roofing you deserve at a price you can afford. Our
+                Get the building you deserve at a price you can afford. Our
                 competitive pricing ensures everyone can access top-notch
-                roofing services.
+                building products.
               </p>
             </div>
             <div className="box1 ">
@@ -282,8 +282,8 @@ export function Home() {
               <p className="mt-8 text-xl font-bold text-black">Special Offer</p>
               <p className="mt-2">
                 Affordability is our promise, satisfaction is our guarantee.
-                Roofing solutions that fit your budget without compromising on
-                performance.
+                Building products solutions that fit your budget without
+                compromising on performance.
               </p>
             </div>
             <div className="bg_pic_logo"></div>

@@ -28,9 +28,9 @@ export const Contact = () => {
                 Contact Us
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                We're just a message away. Reach out to us for all your roofing
+                We're just a message away. Reach out to us for all your building
                 inquiries, and we'll promptly respond to assist you. Your
-                roofing project is important to us, and we're here to make it a
+                building project is important to us, and we're here to make it a
                 reality.
               </Typography>
             </div>
@@ -42,7 +42,9 @@ export const Contact = () => {
         <div className="flex justify-center">
           <div className="mr-20">
             <p className="text-6xl font-bold">
-              Get in Touch with <br /> Our Roofing Experts
+              Get in Touch with <br /> Our Building Products
+              <br />
+              Experts
             </p>
             {/* <p className="mt-6 w-[500px] text-gray-600">
               Condimentum ultrices vitae dictumst augue id porta sed accumsan ut
@@ -50,10 +52,10 @@ export const Contact = () => {
             </p> */}
             <br />
             <p className="w-[500px] text-gray-500">
-              Our team is ready to assist you with your roofing needs. If you
+              Our team is ready to assist you with your building needs. If you
               have questions, need a quote, or want to discuss a project, please
               don't hesitate to reach out. We look forward to hearing from you
-              and helping you with your roofing requirements.
+              and helping you with your building requirements.
             </p>
 
             <div className="mt-10 flex items-center pl-10">
