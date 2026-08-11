@@ -1,247 +1,114 @@
-* {
-  font-family: sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.picture_img1 {
-  position: relative;
-  background-image: url("/public/roofPics/roof1.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.picture_img2 {
-  position: relative;
-  background-image: url("/public/roofPics/roof2.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.picture_img3 {
-  position: relative;
-  background-image: url("/public/roofPics/roof3.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.picture_img4 {
-  position: relative;
-  background-image: url("/public/roofPics/roof4.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.overlay_background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: #424346;
-  opacity: 0.65;
-  top: 0;
-  left: 0;
-}
-
-.overlay_background:hover {
-  transition: 0.5s;
-  background-color: #000000;
-  opacity: 0.7;
-}
-
-.bg_pic_logo {
-  position: absolute;
-  background-image: url("/public/roofPics/attab.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: 160px;
-  width: 100%;
-  height: 90%;
-  z-index: -10;
-}
-
-.box1 {
-  width: 350px;
-  height: 300px;
-  border: 1px solid rgba(219, 221, 238, 0.41);
-  margin-right: 40px;
-  margin-bottom: 40px;
-  padding: 40px;
-  background-color: #fff;
-  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.08);
-}
-
-.box2 {
-  width: 350px;
-  height: 350px;
-  border: 1px solid rgba(219, 221, 238, 0.41);
-  margin-right: 40px;
-  margin-bottom: 40px;
-  padding: 40px;
-  background-color: #fff;
-  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.08);
-}
-
-.box1:hover {
-  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.2);
-}
-
-.box2:hover {
-  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.2);
-}
-
-.box1 .trophy_icon {
-  display: inline-block;
-  padding: 8px 8px;
-  border-radius: 50%;
-}
-
-.box2 .trophy_icon {
-  display: inline-block;
-  padding: 8px 8px;
-  border-radius: 50%;
-}
-
-/* about us page */
-.about_page_img {
-  width: 600px;
-  height: 660px;
-}
-
-.about_page_right {
-  width: 50%;
-}
-
-.bg_pic_logo_about {
-  position: absolute;
-  background-image: url("/public/roofPics/attab.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: -60px;
-  width: 100%;
-  height: 120%;
-  z-index: -10;
-}
-
-/* services page */
-.services_pics {
-  z-index: -10;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pic_texts {
-  top: 0px;
-  left: 200px;
-}
-
-.service_line::after {
-  content: "";
-  width: 230px;
-  height: 2px;
-  border-bottom: 1px solid red;
-  display: inline-block;
-  margin-left: 10px;
-}
-
-/* projects page */
-.featured_project {
-  padding: 5rem 10rem;
-}
-
-.featured_project_top {
-  padding: 0 10rem;
-}
-
-.section2_testimony {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
-.projects_page_texts {
-  content: "";
-  width: 2px;
-  height: 110px;
-  border-left: 1px solid red;
-  display: inline-block;
-}
-
-.projects_person_pic {
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
-  border-radius: 50%;
-  margin-top: 10px;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-/* contact page */
-.contact_form {
-  background: #fff;
-  box-shadow: 0 32px 120px -25px rgba(0, 0, 0, 0.3);
-}
-
-.input_size {
-  margin-bottom: 20px;
-}
-
-/* footer */
-.text_color {
-  color: #8e91aa;
-}
-
-/* ================ urenthan_pictures =============== */
-.urenthan_pictures {
-  display: flex;
-  justify-content: center;
-  /* margin-left: 30%; */
-}
-
-.urenthan_pictures .category_list {
-  width: 220px;
-  background-color: rgb(240, 243, 245);
-  margin-right: 150px;
-  padding: 20px;
-  padding-top: 40px;
-  height: 600px;
-  border-radius: 10px;
-}
-
-.urenthan_pictures .category_list .link_texts-active {
-  background-color: rgb(220, 227, 230);
-  border-radius: 10px;
-}
-
-.urenthan_pictures .category_list .link_texts:hover {
-  background-color: rgb(220, 227, 230);
-  border-radius: 10px;
-}
-
-/* projects */
-
-.projects_pics {
-  width: 560px;
-  height: 300px;
-}
-
-/* media query */
-@media only screen and (max-width: 1500px) {
-  .pic_texts {
-    top: 0px;
-    left: 0px;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
 
-  /* projects page */
-  .section2_testimony {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .featured_project {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    padding: 0;
+  body {
+    @apply bg-white font-sans text-steel-800 antialiased;
+    overflow-x: hidden;
   }
 
-  .featured_project_top {
-    padding: 0 5rem;
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-8xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-500;
+  }
+
+  .heading-xl {
+    @apply text-[2.25rem] font-extrabold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl xl:text-[4.25rem];
+  }
+
+  .heading-lg {
+    @apply text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl;
+  }
+
+  .heading-md {
+    @apply text-2xl font-bold leading-snug tracking-tight sm:text-3xl;
+  }
+
+  .lede {
+    @apply text-base leading-relaxed text-steel-500 sm:text-lg;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-steel-200/70 bg-white transition duration-500 ease-smooth;
+  }
+
+  .card-surface:hover {
+    @apply -translate-y-1 border-steel-300 shadow-[0_24px_60px_-28px_rgba(10,15,28,0.35)];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Scroll-reveal: elements start hidden, .is-visible is added by the observer. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Respect users who ask the OS to reduce motion: kill transforms, keep content visible. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
   }
 }

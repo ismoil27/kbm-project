@@ -1,174 +1,129 @@
-import PropTypes from "prop-types";
-import { Typography } from "@material-tailwind/react";
+import React from "react";
+import { Link } from "react-router-dom";
+import { MapPinIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
+import { products } from "@/data/products-data";
+import { site } from "@/data/site";
+import { useLang } from "@/i18n";
 
 const year = new Date().getFullYear();
 
-export function Footer({ socials }) {
+const socials = [
+  { name: "linkedin", label: "LinkedIn" },
+  { name: "instagram", label: "Instagram" },
+  { name: "youtube", label: "YouTube" },
+];
+
+export function Footer() {
+  const { t } = useLang();
+
+  const quickLinks = [
+    { label: t.nav.home, to: "/" },
+    { label: t.nav.about, to: "/about-us" },
+    { label: t.nav.projects, to: "/projects" },
+    { label: t.nav.contact, to: "/contact" },
+  ];
+
   return (
-    <footer className="relative px-4 pb-6 pt-8">
-      <div className="container">
-        <div className="flex p-14">
-          <div className="mr-20 px-4">
-            <Typography
-              variant="h6"
-              className="text-bold mb-4 flex items-end"
-              color="blue-gray"
-            >
-              <p className="text-5xl text-white">KBM</p>
-            </Typography>
-            <Typography className="font-normal text-blue-gray-500">
-              Elevate your home's protection and curb appeal with
-              <br />
-              our expert roofing services, ensuring your <br /> peace of mind
-              under every weather condition.
-            </Typography>
-            <div className="mx-auto mb-8 mt-6 flex justify-center gap-2 md:mb-0 lg:justify-start">
-              {socials.map(({ color, name }) => (
-                <a key={name} href="" target="_blank" rel="noopener noreferrer">
-                  <Typography color={color} className="mr-3">
-                    <i className={`fa-brands fa-${name}`} />
-                  </Typography>
+    <footer className="bg-ink text-steel-300">
+      <div className="shell py-16 sm:py-20">
+        {/* Centred while stacked, reverting to columns from lg up. */}
+        <div className="grid gap-12 text-center md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] lg:gap-10 lg:text-left">
+          <div className="md:col-span-2 lg:col-span-1">
+            <img
+              src={site.logo}
+              alt={site.legalName}
+              className="mx-auto h-24 w-auto object-contain lg:mx-0"
+            />
+            <p className="mx-auto mt-4 max-w-sm text-sm leading-relaxed text-steel-200 lg:mx-0">
+              {t.footer.tagline}
+            </p>
+            <div className="mt-6 flex justify-center gap-3 lg:justify-start">
+              {socials.map(({ name, label }) => (
+                <a
+                  key={name}
+                  href="#"
+                  aria-label={label}
+                  className="grid h-10 w-10 place-items-center rounded-full border border-white/10 text-steel-300 transition duration-300 hover:border-brand-500 hover:bg-brand-500 hover:text-white"
+                >
+                  <i className={`fa-brands fa-${name}`} />
                 </a>
               ))}
             </div>
           </div>
-          <div className="flex justify-around">
-            <div className="mr-28">
-              <p className="mb-3 text-xl font-bold text-white">Contact Info</p>
-              <p className="text_color">123 5th Ave, New York, NY 10021</p>
-              <p className="text_color">+1 123 456 7890</p>
-              <p className="text_color">info@example.com</p>
-            </div>
-            <div className="mr-28">
-              <p className="mb-3 text-xl font-bold text-white">Quick Links</p>
-              <a href="">
-                <p className="text_color">
-                  <a href="/">Home</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/about-us">About Us</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/products/urenthane-panel">Products</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/projects">Projects</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/contact">Contact Us</a>
-                </p>
-              </a>
-            </div>
-            <div>
-              <p className="mb-3 text-xl font-bold text-white">Our Service</p>
-              <a href="">
-                <p className="text_color">Commercial Roofing</p>
-              </a>
-              <a href="">
-                <p className="text_color">Residential Roofing</p>
-              </a>
-              <a href="">
-                <p className="text_color">After Storm Damage</p>
-              </a>
-              <a href="">
-                <p className="text_color">Finance & Insurance</p>
-              </a>
-            </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+              {t.footer.quickLinks}
+            </h3>
+            <ul className="mt-5 space-y-3 text-sm">
+              {quickLinks.map(({ label, to }) => (
+                <li key={label}>
+                  <Link to={to} className="text-steel-200 transition-colors hover:text-brand-400">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+              {t.footer.products}
+            </h3>
+            <ul className="mt-5 space-y-3 text-sm">
+              {products.map((product) => (
+                <li key={product.slug}>
+                  <Link
+                    to={product.path}
+                    className="text-steel-200 transition-colors hover:text-brand-400"
+                  >
+                    {t.products[product.slug].shortName}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+              {t.footer.contact}
+            </h3>
+            <ul className="mt-5 space-y-4 text-sm">
+              <li className="flex justify-center gap-3 lg:justify-start">
+                <MapPinIcon className="h-5 w-5 shrink-0 text-brand-500" />
+                <span className="text-steel-200">{t.contact.details.addressValue}</span>
+              </li>
+              <li className="flex justify-center gap-3 lg:justify-start">
+                <PhoneIcon className="h-5 w-5 shrink-0 text-brand-500" />
+                <a
+                  href={site.phoneHref}
+                  className="text-steel-200 transition-colors hover:text-brand-400"
+                >
+                  {site.phone}
+                </a>
+              </li>
+              <li className="flex justify-center gap-3 lg:justify-start">
+                <EnvelopeIcon className="h-5 w-5 shrink-0 text-brand-500" />
+                <a
+                  href={site.emailHref}
+                  className="break-all text-steel-200 transition-colors hover:text-brand-400"
+                >
+                  {site.email}
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        {/* <hr className="my-6 border-gray-300" /> */}
-        <div className="flex flex-wrap items-center justify-center md:justify-between">
-          <div className=" w-full px-4 pl-16">
-            <Typography
-              variant="small"
-              className="text-center font-normal text-blue-gray-500"
-            >
-              2023 © Korea Building Materials. All rights reserved.
-            </Typography>
-          </div>
+
+        <div className="mt-14 border-t border-white/10 pt-6">
+          <p className="text-center text-xs text-steel-400">
+            {year} {t.footer.rights}
+          </p>
         </div>
       </div>
     </footer>
   );
 }
-
-Footer.defaultProps = {
-  title: "Material Tailwind",
-  description: "Sociel media logos",
-  socials: [
-    {
-      color: "blue",
-      name: "linkedin",
-      path: "",
-    },
-    {
-      color: "blue",
-      name: "twitter",
-      path: "",
-    },
-    {
-      color: "blue",
-      name: "instagram",
-      path: "",
-    },
-    {
-      color: "blue",
-      name: "youtube",
-      path: "",
-    },
-  ],
-  menus: [
-    {
-      name: "",
-      items: [
-        { name: "Phone:" },
-        { name: "+8210-6729-7757" },
-        { name: "Fax:" },
-        { name: "+8202-599-8736" },
-        { name: "Email:" },
-        { name: "ceo@jsscoutsforge.com" },
-      ],
-    },
-    {
-      name: "Address:",
-      items: [
-        {
-          name: "14F Seoul Square, 416 Hangang-daero,",
-          path: "",
-        },
-        {
-          name: "Jung-gu, Seoul, South Korea",
-        },
-      ],
-    },
-  ],
-  copyright: (
-    <>
-      Copyright © {year}{" "}
-      <a
-        href=""
-        className="text-blue-gray-500 transition-colors hover:text-blue-500"
-      ></a>
-      .
-    </>
-  ),
-};
-
-Footer.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  socials: PropTypes.arrayOf(PropTypes.object),
-  menus: PropTypes.arrayOf(PropTypes.object),
-  copyright: PropTypes.node,
-};
 
 Footer.displayName = "/src/widgets/layout/footer.jsx";
 
