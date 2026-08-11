@@ -50,58 +50,6 @@ export function Footer() {
               ))}
             </div>
           </div>
-<<<<<<< HEAD
-          <div className="flex justify-around">
-            <div className="mr-28">
-              <p className="mb-3 text-xl font-bold text-white">Contact Info</p>
-              <p className="text_color">South Korea</p>
-              <p className="text_color">07075438180</p>
-              <p className="text_color">koreabuildingmaterials@gmail.com</p>
-            </div>
-            <div className="mr-28">
-              <p className="mb-3 text-xl font-bold text-white">Quick Links</p>
-              <a href="">
-                <p className="text_color">
-                  <a href="/">Home</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/about-us">About Us</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/products/urenthane-panel">Products</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/projects">Projects</a>
-                </p>
-              </a>
-              <a href="">
-                <p className="text_color">
-                  <a href="/contact">Contact Us</a>
-                </p>
-              </a>
-            </div>
-            <div>
-              <p className="mb-3 text-xl font-bold text-white">Our Service</p>
-              <a href="">
-                <p className="text_color">Commercial Roofing</p>
-              </a>
-              <a href="">
-                <p className="text_color">Residential Roofing</p>
-              </a>
-              <a href="">
-                <p className="text_color">After Storm Damage</p>
-              </a>
-              <a href="">
-                <p className="text_color">Finance & Insurance</p>
-              </a>
-            </div>
-=======
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
@@ -164,7 +112,6 @@ export function Footer() {
                 </a>
               </li>
             </ul>
->>>>>>> origin
           </div>
         </div>
 

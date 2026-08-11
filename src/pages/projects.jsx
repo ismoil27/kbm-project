@@ -92,20 +92,9 @@ export function Projects() {
                     : "border border-steel-200 bg-white text-steel-600 hover:border-steel-400"
                 }`}
               >
-<<<<<<< HEAD
-                Projects
-              </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
-                Discover our building expertise in action. Each project
-                showcases our commitment to quality, innovation, and precision.
-                Explore the stories behind our exceptional building solutions.
-              </Typography>
-            </div>
-=======
                 {label(category)}
               </button>
             ))}
->>>>>>> origin
           </div>
 
           <div className="mt-12 grid gap-8 md:grid-cols-2">
@@ -136,40 +125,6 @@ export function Projects() {
                     </span>
                   </button>
 
-<<<<<<< HEAD
-        <div className="featured_project_top flex justify-between">
-          <div>
-            <p className="mt-6 text-5xl">Showcased Building </p>
-            <p className="mt-2 text-5xl">Excellence</p>
-          </div>
-          <div className="w-[350px] ">
-            <p className="text-gray-600">
-              Our projects tell a story of transformation. From strengthening
-              structures to enhancing energy efficiency, we're your trusted
-              partner in building solutions. Explore our portfolio and witness
-              the impact of excellence.
-            </p>
-          </div>
-          <div>
-            <div className="mb-2 flex items-center">
-              <CheckCircleTwoTone className="mr-4" />
-              <p className="text-gray-600">Achievement</p>
-            </div>
-            <div>
-              <div className="mb-2 flex items-center">
-                <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Transformation </p>
-              </div>
-              <div className="mb-2 flex items-center">
-                <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Innovation</p>
-              </div>
-              <div className="mb-2 flex items-center">
-                <CheckCircleTwoTone className="mr-4" />
-                <p className="text-gray-600">Excellence</p>
-              </div>
-            </div>
-=======
                   <div className="flex flex-1 flex-col p-6 sm:p-7">
                     <h3 className="font-display text-xl font-bold text-ink sm:text-2xl">
                       {copy.title}
@@ -185,93 +140,10 @@ export function Projects() {
                 </Reveal>
               );
             })}
->>>>>>> origin
           </div>
         </div>
       </section>
 
-<<<<<<< HEAD
-      {/* ================ Section 2 ================== */}
-      <section className="section2_testimony mb-20 flex flex-wrap justify-center">
-        <div className="mb-20 mr-36">
-          <img
-            className="projects_pics"
-            src="/roofPics/projects/projects1_1.jpeg"
-            alt=""
-          />
-          <p className="mb-4 mt-4 text-3xl">Meta Tech Factory</p>
-          <p className="w-[540px] text-gray-600">
-            We had the privilege of collaborating with Meta Tech, delivering a
-            building solution that perfectly met their needs. Our building
-            panels ensured long-lasting durability and airtight protection,
-            contributing to the efficiency and safety of the Meta Tech facility.
-            This project exemplifies our commitment to quality craftsmanship and
-            client satisfaction."
-          </p>
-        </div>
-        <div>
-          <img
-            className="projects_pics"
-            src="/roofPics/projects/projects1_2.jpeg"
-            alt=""
-          />
-          <p className="mb-4 mt-4 text-3xl">Jinhap Factory</p>
-          <p className="w-[540px] text-gray-600">
-            Our building panels played a pivotal role in the successful
-            completion of the Jinhap Factory project in Daejeon. We provided a
-            robust and efficient building solution, ensuring the factory's
-            structural integrity and weather protection. This project
-            exemplifies our dedication to reliability and performance in every
-            building installation.
-          </p>
-        </div>
-        <div className="mb-20 mr-36">
-          <img
-            className="projects_pics"
-            src="/roofPics/projects/projects1_3.jpeg"
-            alt=""
-          />
-          <p className="mb-4 mt-4 text-3xl">Hanla Steel Factory</p>
-          <p className="w-[540px] text-gray-600">
-            Our team proudly provided building solutions for the Hanla Steel
-            project in Korea. With our top-quality building panels, we ensured
-            the facility's durability and energy efficiency. This project
-            exemplifies our commitment to delivering excellence in every
-            installation.
-          </p>
-        </div>
-        <div>
-          <img
-            className="projects_pics"
-            src="/roofPics/projects/projects1_4.jpeg"
-            alt=""
-          />
-          {/* <p className=" my-6 text-[#ff1a1a]">Commercial Roofing</p> */}
-          <p className="mb-4 mt-4 text-3xl">
-            Carbon Compound materials Company
-          </p>
-          <p className="w-[540px] text-gray-600">
-            We were honored to collaborate with Carbon Compound Materials in
-            Korea to enhance their facility with our building panels. Our expert
-            team delivered a sustainable building solution, ensuring the utmost
-            protection for their valuable assets. This project stands as a
-            testament to our commitment to innovation and quality.
-          </p>
-          {/* <div className="projects_page_texts mt-6 w-[520px]">
-            <p className="ml-6">
-              " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. "
-            </p>
-            <div className="flex items-center">
-              <img
-                src="/roofPics/human/person_pic1.png"
-                alt=""
-                className="projects_person_pic"
-              />
-              <span>Edward B. Suarez</span>
-            </div>
-          </div> */}
-=======
       {/* CTA */}
       <section className="bg-ink py-16 sm:py-20">
         <div className="shell flex flex-col items-center gap-6 text-center lg:flex-row lg:justify-between lg:text-left">
@@ -288,7 +160,6 @@ export function Projects() {
             {t.projects.cta.button}
             <ArrowRightIcon className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
->>>>>>> origin
         </div>
       </section>
 
