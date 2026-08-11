@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Marquee from "react-fast-marquee";
 import {
   ArrowRightIcon,
   PhoneIcon,
@@ -12,7 +11,7 @@ import {
   WrenchScrewdriverIcon,
   CheckCircleIcon,
 } from "@heroicons/react/24/outline";
-import { Reveal, Counter, SectionHeading, HeroSlider } from "@/widgets/ui";
+import { Reveal, Counter, SectionHeading, HeroSlider, Marquee } from "@/widgets/ui";
 import { products } from "@/data/products-data";
 import { site } from "@/data/site";
 import { useLang } from "@/i18n";
@@ -113,17 +112,7 @@ export function Home() {
 
       {/* ============ Capability marquee ============ */}
       <section className="border-b border-steel-200 bg-steel-50 py-5">
-        <Marquee gradient={false} speed={40} pauseOnHover>
-          {t.home.capabilities.map((item) => (
-            <span
-              key={item}
-              className="mx-6 inline-flex items-center gap-3 text-sm font-medium uppercase tracking-wider text-steel-500"
-            >
-              <span className="h-1.5 w-1.5 rounded-full bg-brand-500" />
-              {item}
-            </span>
-          ))}
-        </Marquee>
+        <Marquee items={t.home.capabilities} />
       </section>
 
       {/* ============ Intro + video ============ */}
