@@ -20,8 +20,22 @@ function Logo({ className = "h-14 sm:h-16" }) {
   );
 }
 
+<<<<<<< HEAD
+Navbar.defaultProps = {
+  brandName: <img src="/roofPics/logo.png" alt="" className="logo_home" />,
+  className: "text-xl",
+  action: (
+    <a href="/contact" target="">
+      {/* <Button variant="gradient" size="sm" fullWidth>
+        Send CV
+      </Button> */}
+    </a>
+  ),
+};
+=======
 function LangSwitch({ className = "" }) {
   const { lang, setLang } = useLang();
+>>>>>>> origin
 
   return (
     <div
